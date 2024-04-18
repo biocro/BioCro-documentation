@@ -1,0 +1,12 @@
+pandoc: 3.1.11
+pkgdown: 2.0.8
+pkgdown_sha: ~
+articles:
+  avoiding_pitfalls_fvcb: avoiding_pitfalls_fvcb.html
+  ball_berry_model: ball_berry_model.html
+  BioCro-II_Paper--Section-1.1-example: BioCro-II_Paper--Section-1.1-example.html
+  dynamical_systems: dynamical_systems.html
+  pdf_vignette_index: pdf_vignette_index.html
+  thick_layer_absorption: thick_layer_absorption.html
+last_built: 2024-04-18T19:26Z
+
