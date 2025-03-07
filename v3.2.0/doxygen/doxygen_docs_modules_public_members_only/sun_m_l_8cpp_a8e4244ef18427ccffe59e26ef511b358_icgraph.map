@@ -1,0 +1,9 @@
+<map id="total_radiation" name="total_radiation">
+<area shape="rect" id="node1" title="Computes total radiation (direct and downscattered) using Equation 15.15 from Campbell &amp; Norman (1998..." alt="" coords="704,56,807,83"/>
+<area shape="rect" id="node2" href="$sun_m_l_8cpp.html#a89b272a8977172dceb31b81782cbf963" title="Computes downscattered radiation using Equation 15.20 from Campbell &amp; Norman (1998)." alt="" coords="493,31,656,57"/>
+<area shape="rect" id="node3" href="$sun_m_l_8cpp.html#a2f44ea45ace33592f38a401132b7c581" title="Computes the radiation incident on shaded leaves using Equation 15.19 from Campbell &amp; Norman (1998)." alt="" coords="325,56,445,83"/>
+<area shape="rect" id="node4" href="$sun_m_l_8cpp.html#a406353dbf3b6ecc6dd7a4e036631dbda" title="Computes an n&#45;layered light profile from the direct light, diffuse light, leaf area index,..." alt="" coords="215,56,277,83"/>
+<area shape="rect" id="node5" href="$c3_can_a_c_8cpp.html#a5c0f82c3a7a653e572bbaee3b22cbfa0" title=" " alt="" coords="47,5,125,32"/>
+<area shape="rect" id="node6" href="$_can_a_c_8cpp.html#a9f9b5bd73a96f6f6a324fcb79b5f8386" title=" " alt="" coords="55,56,117,83"/>
+<area shape="rect" id="node7" href="$classstandard_b_m_l_1_1multilayer__canopy__properties.html#aa6b7bb009af6cd63f442559d3b8d1ab2" title=" " alt="" coords="5,107,167,149"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="c3_temperature_response" name="c3_temperature_response">
+<area shape="rect" id="node1" title="Calculates the values of key C3 photosynthesis parameters at leaf temperature." alt="" coords="5,35,177,61"/>
+<area shape="rect" id="node2" href="$temperature__response__functions_8h.html#afb45c056a22b2a0cd23ad512c7390977" title="Calculates the exponential term of the Arrhenius equation." alt="" coords="436,5,583,32"/>
+<area shape="rect" id="node3" href="$temperature__response__functions_8h.html#abe683ec5f0c3914037d261a16858035a" title="A temperature response function originally defined in Johnson, Eyring, and Williams (1942),..." alt="" coords="225,27,388,69"/>
+<area shape="rect" id="node4" href="$temperature__response__functions_8h.html#ac417f479f8a410bedf52468fb36df4d1" title="A simple second&#45;order polynomial equation describing the temperature response of a reaction rate or o..." alt="" coords="235,93,378,120"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Q10_temperature_response" name="Q10_temperature_response">
+<area shape="rect" id="node1" title="A typical Q10&#45;based temperature response. The two temperatures below must be supplied in the same uni..." alt="" coords="100,5,283,32"/>
+<area shape="rect" id="node2" href="$_aux_bio_cro_8cpp.html#aefe14addff3b3c1842f5558a8b26c24a" title="Subtracts respiratory losses from a carbon production rate." alt="" coords="5,5,52,32"/>
+</map>

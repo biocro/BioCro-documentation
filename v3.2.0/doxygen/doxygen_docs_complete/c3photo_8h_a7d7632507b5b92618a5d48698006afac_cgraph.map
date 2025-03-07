@@ -1,0 +1,14 @@
+<map id="c3photoC" name="c3photoC">
+<area shape="rect" id="node1" title=" " alt="" coords="5,195,83,221"/>
+<area shape="rect" id="node2" href="$ball__berry__gs_8cpp.html#ad24d3b65b48b6defb685a6bd3094d0f1" title="Calculates steady&#45;state stomatal conductance to water vapor using the Ball&#45;Berry model." alt="" coords="167,56,266,83"/>
+<area shape="rect" id="node6" href="$c3__temperature__response_8cpp.html#a69f1af5907ee319a7b914a946909fba4" title="Calculates the values of key C3 photosynthesis parameters at leaf temperature." alt="" coords="131,136,303,163"/>
+<area shape="rect" id="node10" href="$conductance__limited__assim_8h.html#a9912249fe80a1a615d0316c7778cd6cf" title="Computes the conductance&#45;limited net CO2 assimilation rate." alt="" coords="146,187,287,229"/>
+<area shape="rect" id="node11" href="$_fv_c_b__assim_8cpp.html#a43d8119426f93d0771e9cf272513f59f" title="Computes the net CO2 assimilation rate (and other values) using the Farquhar&#45;von&#45;Caemmerer&#45;Berry mode..." alt="" coords="168,253,265,280"/>
+<area shape="rect" id="node12" href="$c3photo_8cpp.html#a2c2b79a3f622d45a0dc9017ef87a4f98" title=" " alt="" coords="193,304,240,331"/>
+<area shape="rect" id="node3" href="$quadratic__root_8h.html#ad8e1928a7fe5ae96f1d841e5f236920a" title="A wrapper for quadratic_root() that returns the &quot;plus&quot; root." alt="" coords="371,5,505,32"/>
+<area shape="rect" id="node5" href="$water__and__air__properties_8h.html#a117fba2c85ba6d52345e7cefc05a43ff" title="Determine saturation water vapor pressure (Pa) from air temperature (degrees C) using the Arden Buck ..." alt="" coords="351,56,525,83"/>
+<area shape="rect" id="node4" href="$quadratic__root_8cpp.html#a71025edea157c7c14d87962f1c5713db" title="Computes one of the roots of a quadratic equation." alt="" coords="595,5,699,32"/>
+<area shape="rect" id="node7" href="$temperature__response__functions_8h.html#afb45c056a22b2a0cd23ad512c7390977" title="Calculates the exponential term of the Arrhenius equation." alt="" coords="573,136,720,163"/>
+<area shape="rect" id="node8" href="$temperature__response__functions_8h.html#abe683ec5f0c3914037d261a16858035a" title="A temperature response function originally defined in Johnson, Eyring, and Williams (1942),..." alt="" coords="357,158,519,199"/>
+<area shape="rect" id="node9" href="$temperature__response__functions_8h.html#ac417f479f8a410bedf52468fb36df4d1" title="A simple second&#45;order polynomial equation describing the temperature response of a reaction rate or o..." alt="" coords="367,224,509,251"/>
+</map>

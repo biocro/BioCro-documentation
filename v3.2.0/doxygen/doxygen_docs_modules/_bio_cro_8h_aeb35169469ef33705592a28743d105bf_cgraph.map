@@ -1,0 +1,4 @@
+<map id="resp" name="resp">
+<area shape="rect" id="node1" title="Subtracts respiratory losses from a carbon production rate." alt="" coords="5,5,52,32"/>
+<area shape="rect" id="node2" href="$temperature__response__functions_8h.html#a2f3f958811a5cf0d1dcb62c611bfcd41" title="A typical Q10&#45;based temperature response. The two temperatures below must be supplied in the same uni..." alt="" coords="100,5,283,32"/>
+</map>

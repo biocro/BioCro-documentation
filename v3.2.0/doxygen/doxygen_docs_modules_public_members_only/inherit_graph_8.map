@@ -1,0 +1,74 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1715,108,1741"/>
+<area shape="rect" id="node2" href="$classstandard_b_m_l_1_1_fv_c_b.html" title="Uses FvCB_assim() to evaluate the Farquhar&#45;von&#45;Caemmerer&#45;Berry model for C3 photosynthesis." alt="" coords="238,5,293,32"/>
+<area shape="rect" id="node3" href="$classstandard_b_m_l_1_1_module__1.html" title=" " alt="" coords="226,56,305,83"/>
+<area shape="rect" id="node4" href="$classstandard_b_m_l_1_1_module__2.html" title=" " alt="" coords="226,107,305,133"/>
+<area shape="rect" id="node5" href="$classstandard_b_m_l_1_1_module__3.html" title=" " alt="" coords="226,157,305,184"/>
+<area shape="rect" id="node6" href="$classstandard_b_m_l_1_1ball__berry.html" title="Uses ball_berry_gs() to evaluate the Ball&#45;Berry model for stomatal conductance." alt="" coords="227,208,304,235"/>
+<area shape="rect" id="node7" href="$classstandard_b_m_l_1_1biomass__leaf__n__limitation.html" title=" " alt="" coords="179,259,351,285"/>
+<area shape="rect" id="node8" href="$classstandard_b_m_l_1_1buck__swvp.html" title="Determines the saturation water vapor pressure of atmospheric air using the saturation_vapor_pressure..." alt="" coords="221,309,309,336"/>
+<area shape="rect" id="node9" href="$classstandard_b_m_l_1_1c3__assimilation.html" title="Calculates net assimilation, stomatal conductance, and intercellular CO2 concentration for a C3 leaf ..." alt="" coords="209,360,321,387"/>
+<area shape="rect" id="node10" href="$classstandard_b_m_l_1_1c3__canopy.html" title=" " alt="" coords="223,411,307,437"/>
+<area shape="rect" id="node11" href="$classstandard_b_m_l_1_1c3__leaf__photosynthesis.html" title="Uses the method from c3CanAC() to calculate leaf photosynthesis parameters for C3 plants." alt="" coords="186,461,345,488"/>
+<area shape="rect" id="node12" href="$classstandard_b_m_l_1_1c3__parameters.html" title="Uses c3_temperature_response() to calculate the values of key C3 photosynthesis parameters at leaf te..." alt="" coords="211,512,319,539"/>
+<area shape="rect" id="node13" href="$classstandard_b_m_l_1_1c4__assimilation.html" title="Calculates net assimilation, stomatal conductance, and intercellular CO2 concentration for a C4 leaf ..." alt="" coords="209,563,321,589"/>
+<area shape="rect" id="node14" href="$classstandard_b_m_l_1_1c4__canopy.html" title=" " alt="" coords="223,613,307,640"/>
+<area shape="rect" id="node15" href="$classstandard_b_m_l_1_1c4__leaf__photosynthesis.html" title="Uses the method from CanAC() to calculate leaf photosynthesis parameters for C4 plants." alt="" coords="186,664,345,691"/>
+<area shape="rect" id="node16" href="$classstandard_b_m_l_1_1canopy__gbw__thornley.html" title="Calculates the boundary layer conductance using the canopy_boundary_layer_conductance_thornley() func..." alt="" coords="192,715,339,741"/>
+<area shape="rect" id="node17" href="$classstandard_b_m_l_1_1carbon__assimilation__to__biomass.html" title="Converts the canopy assimilation rate from a flux of CO2 molecules to a rate of dry biomass accumulat..." alt="" coords="197,766,334,807"/>
+<area shape="rect" id="node18" href="$classstandard_b_m_l_1_1development__index__from__thermal__time.html" title="Calculates the development index from the thermal time." alt="" coords="182,831,349,873"/>
+<area shape="rect" id="node19" href="$classstandard_b_m_l_1_1example__model__mass__gain.html" title="An example for the BioCro II manuscript." alt="" coords="174,897,357,924"/>
+<area shape="rect" id="node20" href="$classstandard_b_m_l_1_1fake__solar.html" title="Class created by EBL for testing and experimentation ... not meant for real simulations!" alt="" coords="224,948,307,975"/>
+<area shape="rect" id="node21" href="$classstandard_b_m_l_1_1format__time.html" title="Converts time (expressed as the number of hours since midnight on January 1) to day of year (doy) and..." alt="" coords="220,999,311,1025"/>
+<area shape="rect" id="node22" href="$classstandard_b_m_l_1_1golden__ratio__hyperbola.html" title="Represents a simple hyperbola defined by f(x) = 1 + 1 / x. Intended to be used as a simple test case ..." alt="" coords="188,1049,343,1076"/>
+<area shape="rect" id="node23" href="$classstandard_b_m_l_1_1grimm__soybean__flowering__calculator.html" title="Model for soybean development and flowering based on Grimm et al. (1993)" alt="" coords="180,1101,351,1142"/>
+<area shape="rect" id="node24" href="$classstandard_b_m_l_1_1harmonic__energy.html" title=" " alt="" coords="205,1167,325,1193"/>
+<area shape="rect" id="node25" href="$classstandard_b_m_l_1_1height__from__lai.html" title="Estimates the canopy height as being proportional to LAI." alt="" coords="210,1217,321,1244"/>
+<area shape="rect" id="node26" href="$classstandard_b_m_l_1_1hyperbola__2d.html" title="Represents two 2D hyperbolas defined by f(x,y) = 1 + 1 / (x + y) and g(x,y) = 1 + 1 / (2x &#45; y)...." alt="" coords="216,1268,315,1295"/>
+<area shape="rect" id="node27" href="$classstandard_b_m_l_1_1incident__shortwave__from__ground__par.html" title="Uses a value for total PAR flux density measured at the Earth&#39;s surface to calculate the total light ..." alt="" coords="198,1319,333,1361"/>
+<area shape="rect" id="node28" href="$classstandard_b_m_l_1_1leaf__evapotranspiration.html" title="Uses leaf_energy_balance() to determine transpiration rate and leaf temperature." alt="" coords="187,1385,343,1412"/>
+<area shape="rect" id="node29" href="$classstandard_b_m_l_1_1leaf__gbw__nikolov.html" title="Calculates the boundary layer conductance using the leaf_boundary_layer_conductance_nikolov() functio..." alt="" coords="204,1436,327,1463"/>
+<area shape="rect" id="node30" href="$classstandard_b_m_l_1_1leaf__shape__factor.html" title="Determines the leaf shape factor k from the solar zenith angle and the leaf shape chi_l (expressed as..." alt="" coords="203,1487,328,1513"/>
+<area shape="rect" id="node31" href="$classstandard_b_m_l_1_1leaf__water__stress__exponential.html" title=" " alt="" coords="167,1537,364,1564"/>
+<area shape="rect" id="node32" href="$classstandard_b_m_l_1_1light__from__solar.html" title=" " alt="" coords="208,1588,323,1615"/>
+<area shape="rect" id="node33" href="$classstandard_b_m_l_1_1linear__vmax__from__leaf__n.html" title=" " alt="" coords="182,1639,349,1665"/>
+<area shape="rect" id="node34" href="$classstandard_b_m_l_1_1litter__cover.html" title="Estimates the fraction of ground covered by leaf litter." alt="" coords="222,1689,309,1716"/>
+<area shape="rect" id="node35" href="$classstandard_b_m_l_1_1multilayer__canopy__integrator.html" title="Calculates canopy&#45;level values for assimilation and other quantities by adding the individual values ..." alt="" coords="172,1740,359,1767"/>
+<area shape="rect" id="node37" href="$classstandard_b_m_l_1_1multilayer__canopy__photosynthesis.html" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy." alt="" coords="156,1791,375,1847"/>
+<area shape="rect" id="node41" href="$classstandard_b_m_l_1_1multilayer__canopy__properties.html" title="Calculates environmental properties for sunlit and shaded leaves in each layer of a multilayer canopy..." alt="" coords="171,1871,360,1897"/>
+<area shape="rect" id="node43" href="$classstandard_b_m_l_1_1no__leaf__resp__neg__assim__partitioning__growth__calculator.html" title="Uses a set of partitioning coefficients to determine net assimilation rates due to photosynthesis and..." alt="" coords="165,1922,366,1963"/>
+<area shape="rect" id="node44" href="$classstandard_b_m_l_1_1no__leaf__resp__partitioning__growth__calculator.html" title="Uses a set of partitioning coefficients to determine net assimilation rates due to photosynthesis and..." alt="" coords="182,1987,349,2029"/>
+<area shape="rect" id="node45" href="$classstandard_b_m_l_1_1oscillator__clock__calculator.html" title=" " alt="" coords="178,2053,353,2080"/>
+<area shape="rect" id="node46" href="$classstandard_b_m_l_1_1parameter__calculator.html" title=" " alt="" coords="194,2104,337,2131"/>
+<area shape="rect" id="node47" href="$classstandard_b_m_l_1_1partitioning__coefficient__logistic.html" title="Calculates carbon partitioning coefficients based on logistic&#45;based functions and development index u..." alt="" coords="190,2155,341,2197"/>
+<area shape="rect" id="node48" href="$classstandard_b_m_l_1_1partitioning__coefficient__selector.html" title=" " alt="" coords="190,2221,341,2262"/>
+<area shape="rect" id="node49" href="$classstandard_b_m_l_1_1partitioning__growth__calculator.html" title="Uses a set of partitioning coefficients to determine net assimilation rates due to photosynthesis and..." alt="" coords="200,2286,331,2327"/>
+<area shape="rect" id="node50" href="$classstandard_b_m_l_1_1penman__monteith__leaf__temperature.html" title=" " alt="" coords="189,2351,342,2393"/>
+<area shape="rect" id="node51" href="$classstandard_b_m_l_1_1penman__monteith__transpiration.html" title=" " alt="" coords="164,2417,367,2444"/>
+<area shape="rect" id="node52" href="$classstandard_b_m_l_1_1priestley__transpiration.html" title=" " alt="" coords="191,2468,339,2495"/>
+<area shape="rect" id="node53" href="$classstandard_b_m_l_1_1rasmussen__specific__heat.html" title="Determines the specific heat capacity of atmospheric air at constant pressure using the rasmussen_spe..." alt="" coords="181,2519,350,2545"/>
+<area shape="rect" id="node54" href="$classstandard_b_m_l_1_1rh__to__mole__fraction.html" title="Converts atmospheric relative humidity into a water vapor concentration expressed as a dimensionless ..." alt="" coords="197,2569,333,2596"/>
+<area shape="rect" id="node55" href="$classstandard_b_m_l_1_1rue__leaf__photosynthesis.html" title="Calculates leaf photosynthesis parameters using a simple radiation use efficiency (RUE) model where g..." alt="" coords="184,2620,347,2647"/>
+<area shape="rect" id="node56" href="$classstandard_b_m_l_1_1senescence__coefficient__logistic.html" title="Calculates coefficients representing fraction of biomass senesced for each organ; coefficents are rep..." alt="" coords="187,2671,344,2713"/>
+<area shape="rect" id="node57" href="$classstandard_b_m_l_1_1shortwave__atmospheric__scattering.html" title="Uses lightME() to calculate the amount of sunlight scattered out of the direct beam by the atmosphere..." alt="" coords="185,2737,345,2778"/>
+<area shape="rect" id="node58" href="$classstandard_b_m_l_1_1sla__linear.html" title="Calculates the specific leaf area as a linear function of thermal time." alt="" coords="227,2803,304,2829"/>
+<area shape="rect" id="node59" href="$classstandard_b_m_l_1_1sla__logistic.html" title="Calculates the specific leaf area as a logistic function of thermal time." alt="" coords="222,2853,309,2880"/>
+<area shape="rect" id="node60" href="$classstandard_b_m_l_1_1soil__evaporation.html" title=" " alt="" coords="207,2904,323,2931"/>
+<area shape="rect" id="node61" href="$classstandard_b_m_l_1_1soil__sunlight.html" title="Determines the fraction of ground area under the canopy exposed to direct sunlight." alt="" coords="218,2955,313,2981"/>
+<area shape="rect" id="node62" href="$classstandard_b_m_l_1_1solar__position__michalsky.html" title="Calculates the solar position using the model described in Michalsky, J. J. &quot;The Astronomical Almanac..." alt="" coords="182,3005,349,3032"/>
+<area shape="rect" id="node63" href="$classstandard_b_m_l_1_1soybean__development__rate__calculator.html" title="Determines hourly soybean developments rate using photothermal functions." alt="" coords="190,3057,341,3098"/>
+<area shape="rect" id="node64" href="$classstandard_b_m_l_1_1stefan__boltzmann__longwave.html" title=" " alt="" coords="172,3123,359,3149"/>
+<area shape="rect" id="node65" href="$classstandard_b_m_l_1_1stomata__water__stress__exponential.html" title=" " alt="" coords="190,3174,341,3215"/>
+<area shape="rect" id="node66" href="$classstandard_b_m_l_1_1stomata__water__stress__linear.html" title=" " alt="" coords="190,3239,341,3281"/>
+<area shape="rect" id="node67" href="$classstandard_b_m_l_1_1stomata__water__stress__linear__and__aba__response.html" title=" " alt="" coords="177,3305,353,3346"/>
+<area shape="rect" id="node68" href="$classstandard_b_m_l_1_1stomata__water__stress__sigmoid.html" title=" " alt="" coords="190,3370,341,3411"/>
+<area shape="rect" id="node69" href="$classstandard_b_m_l_1_1thermal__time__development__rate__calculator.html" title="Calculates hourly plant development rate based on thermal time ranges of emergence,..." alt="" coords="176,3435,355,3477"/>
+<area shape="rect" id="node70" href="$classstandard_b_m_l_1_1total__biomass.html" title="Calculates the total biomass by adding together the masses of the Leaf, Stem, Root,..." alt="" coords="214,3501,317,3528"/>
+<area shape="rect" id="node71" href="$classstandard_b_m_l_1_1varying___jmax25.html" title="Allows Jmax (at 25 degrees C) to vary based on development index." alt="" coords="208,3552,323,3579"/>
+<area shape="rect" id="node72" href="$classstandard_b_m_l_1_1water__vapor__properties__from__air__temperature.html" title=" " alt="" coords="187,3603,344,3645"/>
+<area shape="rect" id="node36" href="$classstandard_b_m_l_1_1ten__layer__canopy__integrator.html" title="A child class of multilayer_canopy_integrator where the number of layers has been defined...." alt="" coords="425,1704,607,1731"/>
+<area shape="rect" id="node38" href="$classstandard_b_m_l_1_1ten__layer__c3__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using the Farquhar&#45;von&#45;Ca..." alt="" coords="445,1755,587,1781"/>
+<area shape="rect" id="node39" href="$classstandard_b_m_l_1_1ten__layer__c4__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using the Collatz et al...." alt="" coords="445,1805,587,1832"/>
+<area shape="rect" id="node40" href="$classstandard_b_m_l_1_1ten__layer__rue__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using a simple radiation ..." alt="" coords="443,1856,589,1883"/>
+<area shape="rect" id="node42" href="$classstandard_b_m_l_1_1ten__layer__canopy__properties.html" title="A child class of multilayer_canopy_properties where the number of layers has been defined...." alt="" coords="423,1907,609,1933"/>
+</map>

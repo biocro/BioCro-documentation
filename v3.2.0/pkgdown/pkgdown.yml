@@ -1,0 +1,14 @@
+pandoc: 3.1.11
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  web_only/avoiding_pitfalls_fvcb: web_only/avoiding_pitfalls_fvcb.html
+  web_only/ball_berry_model: web_only/ball_berry_model.html
+  web_only/BioCro-II_Paper--Section-1.1-example: web_only/BioCro-II_Paper--Section-1.1-example.html
+  BioCro: BioCro.html
+  web_only/canopy_photosynthesis: web_only/canopy_photosynthesis.html
+  web_only/dynamical_systems: web_only/dynamical_systems.html
+  web_only/energy_balance: web_only/energy_balance.html
+  web_only/pdf_vignette_index: web_only/pdf_vignette_index.html
+  web_only/thick_layer_absorption: web_only/thick_layer_absorption.html
+last_built: 2025-03-07T22:16Z
