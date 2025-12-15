@@ -1,0 +1,5 @@
+<map id="daylength_calculator" name="daylength_calculator">
+<area shape="rect" id="node1" title="Computes day_length using a model described by Forsythe et al. (1995)." alt="" coords="5,155,145,181"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="24,80,127,107"/>
+<area shape="rect" id="node3" href="$classmodule.html" title="Represents one or more equations." alt="" coords="43,5,107,32"/>
+</map>

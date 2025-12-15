@@ -1,0 +1,10 @@
+<map id="sequential_conductance" name="sequential_conductance">
+<area shape="rect" id="node1" title="Calculates the total conductance across two sequential gas paths." alt="" coords="508,95,671,121"/>
+<area shape="rect" id="node2" href="$c3photo_8cpp.html#aec4d1a45dd45c6ae61af3bc6de73ca42" title=" " alt="" coords="162,36,239,63"/>
+<area shape="rect" id="node4" href="$c4photo_8cpp.html#ad9d8577ffc005be5ebbd52a4c4c7de1a" title=" " alt="" coords="162,95,239,121"/>
+<area shape="rect" id="node6" href="$leaf__energy__balance_8cpp.html#a2b1477a27adac51f8d1c78748a2e25e9" title="Calculates a difference in leaf temperature; this function will return zero only if leaf temperature ..." alt="" coords="329,196,450,223"/>
+<area shape="rect" id="node7" href="$leaf__energy__balance_8cpp.html#a55c7ef501ddb2ef2690b4edc80a6a697" title="Calculates leaf&#45;level temperature and transpiration rate for a leaf within a canopy using a Penman&#45;Mo..." alt="" coords="131,145,271,172"/>
+<area shape="rect" id="node8" href="$conductance__limited__assim_8h.html#a9912249fe80a1a615d0316c7778cd6cf" title="Computes the conductance&#45;limited net CO2 assimilation rate." alt="" coords="319,29,460,70"/>
+<area shape="rect" id="node3" href="$c3_can_a_c_8cpp.html#ab8cc082dfbf2c8485ef886bc2e92aa60" title=" " alt="" coords="5,53,83,80"/>
+<area shape="rect" id="node5" href="$_can_a_c_8cpp.html#aaf84d24104310b21bc31529f9205df60" title=" " alt="" coords="13,120,75,147"/>
+</map>

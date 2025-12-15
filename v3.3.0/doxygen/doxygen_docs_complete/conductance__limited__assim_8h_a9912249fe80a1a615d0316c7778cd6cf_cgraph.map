@@ -1,0 +1,4 @@
+<map id="conductance_limited_assim" name="conductance_limited_assim">
+<area shape="rect" id="node1" title="Computes the conductance&#45;limited net CO2 assimilation rate." alt="" coords="5,5,147,47"/>
+<area shape="rect" id="node2" href="$conductance__helpers_8h.html#a4a4f9dbf9e50d53911537c54991ce9a1" title="Calculates the total conductance across two sequential gas paths." alt="" coords="195,13,357,39"/>
+</map>

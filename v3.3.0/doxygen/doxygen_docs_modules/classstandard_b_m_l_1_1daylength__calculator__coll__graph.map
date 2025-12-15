@@ -1,0 +1,4 @@
+<map id="daylength_calculator" name="daylength_calculator">
+<area shape="rect" id="node1" title="Computes day_length using a model described by Forsythe et al. (1995)." alt="" coords="5,80,145,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="24,5,127,32"/>
+</map>

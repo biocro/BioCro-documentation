@@ -1,0 +1,4 @@
+<map id="downscattered_radiation" name="downscattered_radiation">
+<area shape="rect" id="node1" title="Computes downscattered radiation using Equation 15.20 from Campbell &amp; Norman (1998)." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$sun_m_l_8cpp.html#a8e4244ef18427ccffe59e26ef511b358" title="Computes total radiation (direct and downscattered) using Equation 15.15 from Campbell &amp; Norman (1998..." alt="" coords="216,5,319,32"/>
+</map>

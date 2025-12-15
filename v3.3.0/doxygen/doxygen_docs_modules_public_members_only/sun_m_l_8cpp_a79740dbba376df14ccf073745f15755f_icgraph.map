@@ -1,0 +1,8 @@
+<map id="thin_layer_absorption" name="thin_layer_absorption">
+<area shape="rect" id="node1" title="Computes absorbed light from incident light for a thin layer of material." alt="" coords="516,56,660,83"/>
+<area shape="rect" id="node2" href="$sun_m_l_8cpp.html#a5d1d488c1d98d1fbca038039f08b28d7" title="Computes total shortwave radiation absorbed by a leaf." alt="" coords="325,31,468,57"/>
+<area shape="rect" id="node3" href="$sun_m_l_8cpp.html#a406353dbf3b6ecc6dd7a4e036631dbda" title="Computes an n&#45;layered light profile from the direct light, diffuse light, leaf area index,..." alt="" coords="215,56,277,83"/>
+<area shape="rect" id="node4" href="$c3_can_a_c_8cpp.html#ab8cc082dfbf2c8485ef886bc2e92aa60" title=" " alt="" coords="47,5,125,32"/>
+<area shape="rect" id="node5" href="$_can_a_c_8cpp.html#aaf84d24104310b21bc31529f9205df60" title=" " alt="" coords="55,56,117,83"/>
+<area shape="rect" id="node6" href="$classstandard_b_m_l_1_1multilayer__canopy__properties.html#aa6b7bb009af6cd63f442559d3b8d1ab2" title=" " alt="" coords="5,107,167,149"/>
+</map>

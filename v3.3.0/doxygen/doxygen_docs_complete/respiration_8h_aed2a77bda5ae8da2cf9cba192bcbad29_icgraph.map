@@ -1,0 +1,5 @@
+<map id="growth_resp_Q10" name="growth_resp_Q10">
+<area shape="rect" id="node1" title="Calculates respiratory losses associated with a particular base rate of biomass available for growth." alt="" coords="223,60,347,87"/>
+<area shape="rect" id="node2" href="$classstandard_b_m_l_1_1partitioning__growth__calculator.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,5,175,61"/>
+<area shape="rect" id="node3" href="$classstandard_b_m_l_1_1partitioning__growth__calculator__leaf__costs.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,85,175,141"/>
+</map>

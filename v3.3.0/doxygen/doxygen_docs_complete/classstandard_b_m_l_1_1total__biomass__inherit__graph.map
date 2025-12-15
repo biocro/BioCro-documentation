@@ -1,0 +1,5 @@
+<map id="total_biomass" name="total_biomass">
+<area shape="rect" id="node1" title="Calculates the total intact and senesced biomass and returns them as &#39;total_intact_biomass&#39; and &#39;tota..." alt="" coords="5,155,108,181"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node3" href="$classmodule.html" title="Represents one or more equations." alt="" coords="25,5,89,32"/>
+</map>
