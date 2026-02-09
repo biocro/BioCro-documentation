@@ -1,0 +1,5 @@
+<map id="maintenance_respiration_calculator" name="maintenance_respiration_calculator">
+<area shape="rect" id="node1" title="Calculates the rate of change in plant organ biomasses due to maintenance respiration; these are refe..." alt="" coords="5,155,168,196"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="35,80,138,107"/>
+<area shape="rect" id="node3" href="$classmodule.html" title="Represents one or more equations." alt="" coords="55,5,119,32"/>
+</map>

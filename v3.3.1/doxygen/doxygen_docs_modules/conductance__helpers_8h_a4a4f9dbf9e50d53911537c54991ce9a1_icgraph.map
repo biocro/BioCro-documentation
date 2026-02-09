@@ -1,0 +1,18 @@
+<map id="sequential_conductance" name="sequential_conductance">
+<area shape="rect" id="node1" title="Calculates the total conductance across two sequential gas paths." alt="" coords="987,221,1149,247"/>
+<area shape="rect" id="node2" href="$c3photo_8cpp.html#aec4d1a45dd45c6ae61af3bc6de73ca42" title=" " alt="" coords="591,119,668,146"/>
+<area shape="rect" id="node7" href="$c4photo_8cpp.html#ad9d8577ffc005be5ebbd52a4c4c7de1a" title=" " alt="" coords="591,319,668,346"/>
+<area shape="rect" id="node12" href="$leaf__energy__balance_8cpp.html#a2b1477a27adac51f8d1c78748a2e25e9" title="Calculates a difference in leaf temperature; this function will return zero only if leaf temperature ..." alt="" coords="807,221,929,247"/>
+<area shape="rect" id="node14" href="$leaf__energy__balance_8cpp.html#a55c7ef501ddb2ef2690b4edc80a6a697" title="Calculates leaf&#45;level temperature and transpiration rate for a leaf within a canopy using a Penman&#45;Mo..." alt="" coords="559,183,699,210"/>
+<area shape="rect" id="node16" href="$conductance__limited__assim_8h.html#a9912249fe80a1a615d0316c7778cd6cf" title="Computes the conductance&#45;limited net CO2 assimilation rate." alt="" coords="797,272,939,313"/>
+<area shape="rect" id="node3" href="$c3_can_a_c_8cpp.html#ab8cc082dfbf2c8485ef886bc2e92aa60" title=" " alt="" coords="303,137,380,163"/>
+<area shape="rect" id="node5" href="$classstandard_b_m_l_1_1c3__assimilation.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="243,5,439,47"/>
+<area shape="rect" id="node6" href="$classstandard_b_m_l_1_1c3__leaf__photosynthesis.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="243,71,439,112"/>
+<area shape="rect" id="node4" href="$classstandard_b_m_l_1_1c3__canopy.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,129,173,171"/>
+<area shape="rect" id="node8" href="$_can_a_c_8cpp.html#aaf84d24104310b21bc31529f9205df60" title=" " alt="" coords="310,319,373,346"/>
+<area shape="rect" id="node10" href="$classstandard_b_m_l_1_1c4__assimilation.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="243,371,439,412"/>
+<area shape="rect" id="node11" href="$classstandard_b_m_l_1_1c4__leaf__photosynthesis.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="243,253,439,295"/>
+<area shape="rect" id="node9" href="$classstandard_b_m_l_1_1c4__canopy.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,312,173,353"/>
+<area shape="rect" id="node13" href="$classstandard_b_m_l_1_1leaf__evapotranspiration__check.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="509,235,749,276"/>
+<area shape="rect" id="node15" href="$classstandard_b_m_l_1_1leaf__evapotranspiration.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="221,188,461,229"/>
+</map>

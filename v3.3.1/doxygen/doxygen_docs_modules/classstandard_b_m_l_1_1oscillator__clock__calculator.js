@@ -1,0 +1,28 @@
+var classstandard_b_m_l_1_1oscillator__clock__calculator =
+[
+    [ "oscillator_clock_calculator", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a5fa79e7d38473718cd04f8f1eacca9e0", null ],
+    [ "do_operation", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
+    [ "dawn_a", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a63b6babaf4218ed4973b6349cc888a5a", null ],
+    [ "dawn_b", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#aebe1a1012e694866f4d36a2e59ec8e6f", null ],
+    [ "dawn_kick_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a252291d597a69a30f5329bd10ff801f6", null ],
+    [ "dawn_phase_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#ab9b728b7fd4e619f27f0035294aeb580", null ],
+    [ "dawn_radius_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a49d3bc950537038dbf49fda41689e86f", null ],
+    [ "day_length_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a817ddb94f655d0137c62f90eec6551ea", null ],
+    [ "day_tracker", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#ac5555f4a1da7a311ef8fe5e860475b6f", null ],
+    [ "dusk_a", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#aa3defdb246779bacba59ca44f7616665", null ],
+    [ "dusk_b", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a860b059b94114d9003562b46dc49db19", null ],
+    [ "dusk_kick_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a6e9834c2209346d4c8a435b4af32028c", null ],
+    [ "dusk_phase_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a22f8012ef087325722489ea4bf9035ab", null ],
+    [ "dusk_radius_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a939d1900bb29ff64e22b4000e39a9ff0", null ],
+    [ "hour", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a2dd48cd440ee14d057a0deabd8f904f9", null ],
+    [ "kick_strength", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a06b7615a783fa47bd1581095ade43e2a", null ],
+    [ "light", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#ab96aea1b3b4dadbc9820a26089ad4523", null ],
+    [ "night_length_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a842bf14ac80ce9c944098a909a3117a3", null ],
+    [ "night_tracker", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a0978332ce03dc133878afb4292c9a9e2", null ],
+    [ "ref_a", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a164b978b70ebd4848235ebae8969b5c3", null ],
+    [ "ref_b", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a4ef0aed0d3bd240f27bcd4527387675c", null ],
+    [ "ref_phase_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a75ff691473cec759cff99b72df949a88", null ],
+    [ "ref_radius_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#ac3b1202e7f0bd8e12d8afa16415caa8c", null ],
+    [ "sunrise_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#a52bf0be04d7b4422e023424701606131", null ],
+    [ "sunset_op", "classstandard_b_m_l_1_1oscillator__clock__calculator.html#ace1259edd18a88730dcbb535ceb6c3dc", null ]
+];

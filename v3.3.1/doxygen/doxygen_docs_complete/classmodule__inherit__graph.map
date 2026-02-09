@@ -1,0 +1,51 @@
+<map id="module" name="module">
+<area shape="rect" id="node1" title="Represents one or more equations." alt="" coords="5,1304,69,1331"/>
+<area shape="rect" id="node2" href="$classdifferential__module.html" title="This class represents a differential module." alt="" coords="117,701,248,728"/>
+<area shape="rect" id="node30" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="131,1852,234,1879"/>
+<area shape="rect" id="node3" href="$classstandard_b_m_l_1_1aba__decay.html" title=" " alt="" coords="351,5,435,32"/>
+<area shape="rect" id="node4" href="$classstandard_b_m_l_1_1bucket__soil__drainage.html" title=" " alt="" coords="321,56,465,83"/>
+<area shape="rect" id="node5" href="$classstandard_b_m_l_1_1cumulative__carbon__dynamics.html" title="Enables calculations of cumulative carbon dynamics." alt="" coords="296,107,489,133"/>
+<area shape="rect" id="node6" href="$classstandard_b_m_l_1_1cumulative__water__dynamics.html" title="Enables calculations of cumulative water dynamics." alt="" coords="299,157,486,184"/>
+<area shape="rect" id="node7" href="$classstandard_b_m_l_1_1development__index.html" title="Calculates the development index (DVI) corresponding to plant growth rate." alt="" coords="326,208,459,235"/>
+<area shape="rect" id="node8" href="$classstandard_b_m_l_1_1example__model__partitioning.html" title="An example for the BioCro II manuscript." alt="" coords="301,259,484,285"/>
+<area shape="rect" id="node9" href="$classstandard_b_m_l_1_1grimm__soybean__flowering.html" title="Model for soybean development and flowering based on Grimm et al. (1993)." alt="" coords="307,309,478,336"/>
+<area shape="rect" id="node10" href="$classstandard_b_m_l_1_1harmonic__oscillator.html" title=" " alt="" coords="325,360,460,387"/>
+<area shape="rect" id="node11" href="$classstandard_b_m_l_1_1magic__clock.html" title=" " alt="" coords="345,411,440,437"/>
+<area shape="rect" id="node12" href="$classstandard_b_m_l_1_1maintenance__respiration.html" title="Includes maintenance respiration losses in the rate of change of each organ biomass." alt="" coords="311,461,474,488"/>
+<area shape="rect" id="node13" href="$classstandard_b_m_l_1_1night__and__day__trackers.html" title=" " alt="" coords="313,512,472,539"/>
+<area shape="rect" id="node14" href="$classstandard_b_m_l_1_1nr__ex.html" title=" " alt="" coords="366,563,419,589"/>
+<area shape="rect" id="node15" href="$classstandard_b_m_l_1_1one__layer__soil__profile.html" title=" " alt="" coords="320,613,465,640"/>
+<area shape="rect" id="node16" href="$classstandard_b_m_l_1_1one__layer__soil__profile__derivatives.html" title=" " alt="" coords="320,665,465,706"/>
+<area shape="rect" id="node17" href="$classstandard_b_m_l_1_1partitioning__growth.html" title="This module determines the growth rate for several plant organs from the net rate of carbon assimilat..." alt="" coords="327,731,458,757"/>
+<area shape="rect" id="node18" href="$classstandard_b_m_l_1_1phase__clock.html" title=" " alt="" coords="345,781,440,808"/>
+<area shape="rect" id="node19" href="$classstandard_b_m_l_1_1poincare__clock.html" title=" " alt="" coords="338,832,447,859"/>
+<area shape="rect" id="node20" href="$classstandard_b_m_l_1_1senescence__logistic.html" title="Calculates the change in plant organ biomasses due to senescence." alt="" coords="323,883,463,909"/>
+<area shape="rect" id="node21" href="$classstandard_b_m_l_1_1song__flowering.html" title=" " alt="" coords="339,933,447,960"/>
+<area shape="rect" id="node22" href="$classstandard_b_m_l_1_1thermal__time__and__frost__senescence.html" title="Determines senescence rates for several plant organs based on thermal time thresholds,..." alt="" coords="313,985,472,1026"/>
+<area shape="rect" id="node23" href="$classstandard_b_m_l_1_1thermal__time__beta.html" title="Calculates the rate of thermal time accumulation using a beta distribution function." alt="" coords="328,1051,457,1077"/>
+<area shape="rect" id="node24" href="$classstandard_b_m_l_1_1thermal__time__bilinear.html" title="Calculates the rate of thermal time accumulation using a bilinear model." alt="" coords="320,1101,465,1128"/>
+<area shape="rect" id="node25" href="$classstandard_b_m_l_1_1thermal__time__linear.html" title="Calculates the rate of thermal time accumulation using a linear model." alt="" coords="325,1152,460,1179"/>
+<area shape="rect" id="node26" href="$classstandard_b_m_l_1_1thermal__time__linear__extended.html" title="Calculates the rate of thermal time accumulation using an extended linear model." alt="" coords="325,1203,460,1245"/>
+<area shape="rect" id="node27" href="$classstandard_b_m_l_1_1thermal__time__senescence.html" title="Determines senescence rates for several plant organs based on thermal time thresholds and magical tim..." alt="" coords="305,1269,480,1296"/>
+<area shape="rect" id="node28" href="$classstandard_b_m_l_1_1thermal__time__trilinear.html" title="Calculates the rate of thermal time accumulation using a trilinear model." alt="" coords="319,1320,466,1347"/>
+<area shape="rect" id="node29" href="$classstandard_b_m_l_1_1two__layer__soil__profile.html" title=" " alt="" coords="320,1371,465,1397"/>
+<area shape="rect" id="node31" href="$classstandard_b_m_l_1_1_fv_c_b.html" title="Uses FvCB_assim() to evaluate the Farquhar&#45;von&#45;Caemmerer&#45;Berry model for C3 photosynthesis." alt="" coords="365,1421,420,1448"/>
+<area shape="rect" id="node32" href="$classstandard_b_m_l_1_1_module__1.html" title=" " alt="" coords="353,1472,432,1499"/>
+<area shape="rect" id="node33" href="$classstandard_b_m_l_1_1_module__2.html" title=" " alt="" coords="353,1523,432,1549"/>
+<area shape="rect" id="node34" href="$classstandard_b_m_l_1_1_module__3.html" title=" " alt="" coords="353,1573,432,1600"/>
+<area shape="rect" id="node35" href="$classstandard_b_m_l_1_1ball__berry.html" title="Uses ball_berry_gs() to evaluate the Ball&#45;Berry model for stomatal conductance." alt="" coords="354,1624,431,1651"/>
+<area shape="rect" id="node36" href="$classstandard_b_m_l_1_1biomass__leaf__n__limitation.html" title=" " alt="" coords="307,1675,479,1701"/>
+<area shape="rect" id="node37" href="$classstandard_b_m_l_1_1broyden__test.html" title=" " alt="" coords="345,1725,441,1752"/>
+<area shape="rect" id="node38" href="$classstandard_b_m_l_1_1buck__swvp.html" title="Determines the saturation water vapor pressure of atmospheric air using the saturation_vapor_pressure..." alt="" coords="349,1776,437,1803"/>
+<area shape="rect" id="node39" href="$classstandard_b_m_l_1_1c3__assimilation.html" title="Calculates net assimilation, stomatal conductance, and intercellular CO2 concentration for a C3 leaf ..." alt="" coords="337,1827,449,1853"/>
+<area shape="rect" id="node40" href="$classstandard_b_m_l_1_1c3__canopy.html" title=" " alt="" coords="351,1877,435,1904"/>
+<area shape="rect" id="node41" href="$classstandard_b_m_l_1_1c3__leaf__photosynthesis.html" title="Uses the method from c3CanAC() to calculate leaf photosynthesis parameters for C3 plants." alt="" coords="313,1928,472,1955"/>
+<area shape="rect" id="node42" href="$classstandard_b_m_l_1_1c3__parameters.html" title="Uses c3_temperature_response() to calculate the values of key C3 photosynthesis parameters at leaf te..." alt="" coords="339,1979,447,2005"/>
+<area shape="rect" id="node43" href="$classstandard_b_m_l_1_1c4__assimilation.html" title="Calculates net assimilation, stomatal conductance, and intercellular CO2 concentration for a C4 leaf ..." alt="" coords="337,2029,449,2056"/>
+<area shape="rect" id="node44" href="$classstandard_b_m_l_1_1c4__canopy.html" title=" " alt="" coords="351,2080,435,2107"/>
+<area shape="rect" id="node45" href="$classstandard_b_m_l_1_1c4__leaf__photosynthesis.html" title="Uses the method from CanAC() to calculate leaf photosynthesis parameters for C4 plants." alt="" coords="313,2131,472,2157"/>
+<area shape="rect" id="node46" href="$classstandard_b_m_l_1_1canopy__gbw__thornley.html" title="Calculates the boundary layer conductance using the canopy_boundary_layer_conductance_thornley() func..." alt="" coords="319,2181,466,2208"/>
+<area shape="rect" id="node47" href="$classstandard_b_m_l_1_1carbon__assimilation__to__biomass.html" title="Converts the canopy assimilation rate from a flux of CO2 molecules to a rate of dry biomass accumulat..." alt="" coords="324,2233,461,2274"/>
+<area shape="rect" id="node48" href="$classstandard_b_m_l_1_1daylength__calculator.html" title="Computes day_length using a model described by Forsythe et al. (1995)." alt="" coords="323,2299,463,2325"/>
+<area shape="rect" id="node49" href="$classstandard_b_m_l_1_1development__index__from__thermal__time.html" title="Calculates the development index from the thermal time." alt="" coords="309,2350,476,2391"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="total_biomass" name="total_biomass">
+<area shape="rect" id="node1" title="Calculates the total intact and senesced biomass and returns them as &#39;total_intact_biomass&#39; and &#39;tota..." alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,108,32"/>
+</map>

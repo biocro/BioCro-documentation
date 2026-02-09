@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1 Contributing to BioCro | BioCro Development</title>
+  <meta name="description" content="1 Contributing to BioCro | BioCro Development" />
+  <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1 Contributing to BioCro | BioCro Development" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1 Contributing to BioCro | BioCro Development" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="generating-documentation.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#sec:documenation-types"><i class="fa fa-check"></i>Note about the types of documentation in BioCro</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#the-online-documentation"><i class="fa fa-check"></i>The online documentation</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#sec:generation-triggers"><i class="fa fa-check"></i>When online documentation is generated</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#sec:documentation-layout"><i class="fa fa-check"></i>The layout of the online documentation</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#version-info"><i class="fa fa-check"></i>Version Info</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html"><i class="fa fa-check"></i><b>1</b> Contributing to BioCro</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#making-changes"><i class="fa fa-check"></i><b>1.1</b> Making Changes</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#discuss-first"><i class="fa fa-check"></i><b>1.1.1</b> Discuss first</a></li>
+<li class="chapter" data-level="1.1.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#branch-structure"><i class="fa fa-check"></i><b>1.1.2</b> Follow BioCro’s git branching structure</a></li>
+<li class="chapter" data-level="1.1.3" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#pr-etiquette"><i class="fa fa-check"></i><b>1.1.3</b> Etiquette for pull requests</a></li>
+<li class="chapter" data-level="1.1.4" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#making-large-modifications-to-biocro"><i class="fa fa-check"></i><b>1.1.4</b> Making large modifications to BioCro</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#new-release"><i class="fa fa-check"></i><b>1.2</b> Releasing a new version of BioCro</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#preparing-a-new-version-of-biocro-on-github"><i class="fa fa-check"></i><b>1.2.1</b> Preparing a new version of BioCro on GitHub</a></li>
+<li class="chapter" data-level="1.2.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#cran-submission"><i class="fa fa-check"></i><b>1.2.2</b> Submitting a new version of BioCro to CRAN</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#code-style"><i class="fa fa-check"></i><b>1.3</b> Code style</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#scientific-considerations"><i class="fa fa-check"></i><b>1.3.1</b> Scientific considerations</a></li>
+<li class="chapter" data-level="1.3.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#general-coding-considerations"><i class="fa fa-check"></i><b>1.3.2</b> General coding considerations</a></li>
+<li class="chapter" data-level="1.3.3" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#formatting-code"><i class="fa fa-check"></i><b>1.3.3</b> Formatting code</a></li>
+<li class="chapter" data-level="1.3.4" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#r-specific-coding-advice"><i class="fa fa-check"></i><b>1.3.4</b> R-specific coding advice</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#formatting-tools"><i class="fa fa-check"></i><b>1.4</b> Formatting Tools</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#clangs-formatting-tool"><i class="fa fa-check"></i><b>1.4.1</b> Clang’s formatting tool</a></li>
+<li class="chapter" data-level="1.4.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#editorconfig"><i class="fa fa-check"></i><b>1.4.2</b> EditorConfig</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="generating-documentation.html"><a href="generating-documentation.html"><i class="fa fa-check"></i><b>2</b> Generating Documentation</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="generating-documentation.html"><a href="generating-documentation.html#sec:on-line_documentation"><i class="fa fa-check"></i><b>2.1</b> Online documentation</a></li>
+<li class="chapter" data-level="2.2" data-path="generating-documentation.html"><a href="generating-documentation.html#sec:when-to-generate-docs"><i class="fa fa-check"></i><b>2.2</b> When to generate documentation</a></li>
+<li class="chapter" data-level="2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#documenting-the-cc-code."><i class="fa fa-check"></i><b>2.3</b> Documenting the C/C++ code.</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="generating-documentation.html"><a href="generating-documentation.html#sec:use-cases"><i class="fa fa-check"></i><b>2.3.1</b> Use cases for generating the Doxygen documentation</a></li>
+<li class="chapter" data-level="2.3.2" data-path="generating-documentation.html"><a href="generating-documentation.html#required-software"><i class="fa fa-check"></i><b>2.3.2</b> Required software</a></li>
+<li class="chapter" data-level="2.3.3" data-path="generating-documentation.html"><a href="generating-documentation.html#installation-1"><i class="fa fa-check"></i><b>2.3.3</b> Installation</a></li>
+<li class="chapter" data-level="2.3.4" data-path="generating-documentation.html"><a href="generating-documentation.html#sec:running-doxygen"><i class="fa fa-check"></i><b>2.3.4</b> Generating the Documentation</a></li>
+<li class="chapter" data-level="2.3.5" data-path="generating-documentation.html"><a href="generating-documentation.html#sec:speeding-up-doxygen"><i class="fa fa-check"></i><b>2.3.5</b> Speeding up Doxygen</a></li>
+<li class="chapter" data-level="2.3.6" data-path="generating-documentation.html"><a href="generating-documentation.html#sec:customizing-doxygen"><i class="fa fa-check"></i><b>2.3.6</b> Doxygen for power users: Customizing Doxygen builds</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="generating-documentation.html"><a href="generating-documentation.html#sec:build-vignettes"><i class="fa fa-check"></i><b>2.4</b> Building package vignettes</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="generating-documentation.html"><a href="generating-documentation.html#required-software-1"><i class="fa fa-check"></i><b>2.4.1</b> Required software</a></li>
+<li class="chapter" data-level="2.4.2" data-path="generating-documentation.html"><a href="generating-documentation.html#building-all-vignettes-at-once"><i class="fa fa-check"></i><b>2.4.2</b> Building all vignettes at once</a></li>
+<li class="chapter" data-level="2.4.3" data-path="generating-documentation.html"><a href="generating-documentation.html#building-individual-vignettes"><i class="fa fa-check"></i><b>2.4.3</b> Building individual vignettes</a></li>
+<li class="chapter" data-level="2.4.4" data-path="generating-documentation.html"><a href="generating-documentation.html#alternative-options"><i class="fa fa-check"></i><b>2.4.4</b> Alternative options</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="generating-documentation.html"><a href="generating-documentation.html#compiling-and-viewing-the-bookdown-book"><i class="fa fa-check"></i><b>2.5</b> Compiling and viewing the <strong>bookdown</strong> book</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="running-testthat.html"><a href="running-testthat.html"><i class="fa fa-check"></i><b>3</b> Running the <em>testthat</em> Tests</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="running-testthat.html"><a href="running-testthat.html#requirements"><i class="fa fa-check"></i><b>3.1</b> Requirements</a></li>
+<li class="chapter" data-level="3.2" data-path="running-testthat.html"><a href="running-testthat.html#tldr"><i class="fa fa-check"></i><b>3.2</b> tl;dr</a></li>
+<li class="chapter" data-level="3.3" data-path="running-testthat.html"><a href="running-testthat.html#sec:TLDR"><i class="fa fa-check"></i><b>3.3</b> tl;dr for devtools users</a></li>
+<li class="chapter" data-level="3.4" data-path="running-testthat.html"><a href="running-testthat.html#sec:ci-tests"><i class="fa fa-check"></i><b>3.4</b> Continuous integration workflow; why run tests manually?</a></li>
+<li class="chapter" data-level="3.5" data-path="running-testthat.html"><a href="running-testthat.html#test-running-scenarios"><i class="fa fa-check"></i><b>3.5</b> Test-running scenarios</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="running-testthat.html"><a href="running-testthat.html#sec:test-installed"><i class="fa fa-check"></i><b>3.5.1</b> Running the test suite on the installed version of BioCro</a></li>
+<li class="chapter" data-level="3.5.2" data-path="running-testthat.html"><a href="running-testthat.html#sec:switching-reporters"><i class="fa fa-check"></i><b>3.5.2</b> Switching reporters</a></li>
+<li class="chapter" data-level="3.5.3" data-path="running-testthat.html"><a href="running-testthat.html#sec:testing-local"><i class="fa fa-check"></i><b>3.5.3</b> Running the test suite against the BioCro source code</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="running-testthat.html"><a href="running-testthat.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.6</b> Running individual test files</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="running-testthat.html"><a href="running-testthat.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.6.1</b> Running an individual test file on the installed package</a></li>
+<li class="chapter" data-level="3.6.2" data-path="running-testthat.html"><a href="running-testthat.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.6.2</b> Running an individual test file against the package source code</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="running-testthat.html"><a href="running-testthat.html#using_devtools"><i class="fa fa-check"></i><b>3.7</b> Using devtools</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="r-cmd-check.html"><a href="r-cmd-check.html"><i class="fa fa-check"></i><b>4</b> Running R CMD check</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="r-cmd-check.html"><a href="r-cmd-check.html#running-r-cmd-check-online"><i class="fa fa-check"></i><b>4.1</b> Running R CMD check online</a></li>
+<li class="chapter" data-level="4.2" data-path="r-cmd-check.html"><a href="r-cmd-check.html#sec:local-r-cmd-check"><i class="fa fa-check"></i><b>4.2</b> Running R CMD check locally</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="r-cmd-check.html"><a href="r-cmd-check.html#from-the-command-line"><i class="fa fa-check"></i><b>4.2.1</b> From the command line</a></li>
+<li class="chapter" data-level="4.2.2" data-path="r-cmd-check.html"><a href="r-cmd-check.html#from-within-r"><i class="fa fa-check"></i><b>4.2.2</b> From within R</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html"><i class="fa fa-check"></i><b>5</b> Adding the Boost libraries</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#why-this-is-needed"><i class="fa fa-check"></i><b>5.1</b> Why this is needed</a></li>
+<li class="chapter" data-level="5.2" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#how-to-extract-parts-of-boost"><i class="fa fa-check"></i><b>5.2</b> How to extract parts of Boost</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#notes-for-using-bcp-in-windows"><i class="fa fa-check"></i><b>5.2.1</b> Notes for using bcp in Windows</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="the-generate-documentation-workflow.html"><a href="the-generate-documentation-workflow.html"><i class="fa fa-check"></i><b>6</b> The <em>Generate Documentation</em> Workflow</a></li>
+<li class="chapter" data-level="7" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html"><i class="fa fa-check"></i><b>7</b> The <em>Doxygen Docker Action using Makefile</em> Action</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#inputs"><i class="fa fa-check"></i><b>7.1</b> Inputs</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#working-directory"><i class="fa fa-check"></i><b>7.1.1</b> ‘working-directory’</a></li>
+<li class="chapter" data-level="7.1.2" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#color"><i class="fa fa-check"></i><b>7.1.2</b> ‘color’</a></li>
+<li class="chapter" data-level="7.1.3" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#document-private"><i class="fa fa-check"></i><b>7.1.3</b> ‘document-private’</a></li>
+<li class="chapter" data-level="7.1.4" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#generate-treeview"><i class="fa fa-check"></i><b>7.1.4</b> ‘generate-treeview’</a></li>
+<li class="chapter" data-level="7.1.5" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#extra-settings"><i class="fa fa-check"></i><b>7.1.5</b> ‘extra-settings’</a></li>
+<li class="chapter" data-level="7.1.6" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#makefile-target"><i class="fa fa-check"></i><b>7.1.6</b> ‘makefile-target’</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BioCro Development</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="contributing-to-biocro" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">1</span> Contributing to BioCro<a href="contributing-to-biocro.html#contributing-to-biocro" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!-- external references -->
+<!-- footnotes -->
+<!-- main text -->
+<div id="making-changes" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Making Changes<a href="contributing-to-biocro.html#making-changes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="discuss-first" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Discuss first<a href="contributing-to-biocro.html#discuss-first" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Check the list of <a href="https://github.com/biocro/biocro/issues" target="_blank" title="Doxygen documentation">GitHub issues</a> for a discussion of the
+issue. If there is not one, create an issue with a description of
+the problem and your proposed solution.</li>
+</ul>
+<p>By making changes without discussing it with the group, you risk
+spending time working on a solution that others may not accept. The
+members of the group also have diverse backgrounds and likely can
+give valuable design insights.</p>
+</div>
+<div id="branch-structure" class="section level3 hasAnchor" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Follow BioCro’s git branching structure<a href="contributing-to-biocro.html#branch-structure" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p>In general, BioCro development follows the <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank" title="git-flow">git-flow</a> branching model, where
+there are two permanent branches (<code>main</code> and <code>develop</code>) and three types of
+temporary branches (hotfixes, features, and releases).</p></li>
+<li><p>For most contributors, it is only necessary to know that most changes should
+be accomplished through feature branches, which are branched off <code>develop</code> and
+merged back into <code>develop</code> via a pull request that must be approved by one or
+more other developers. The remainder of this section discusses our system in
+more detail.</p></li>
+<li><p>Beyond the basic description of git-flow, we have a few additional rules
+and clarifications specific to BioCro development:</p>
+<ul>
+<li><p>Any merge into <code>main</code> or <code>develop</code> must be done via a pull request. This
+requirement is enforced with GitHub branch protection rules and cannot be
+bypassed.</p></li>
+<li><p>All pull requests into <code>main</code> and <code>develop</code> require approval before merging.
+This requirement is not enforced using GitHub branch protection rules, but
+please do not unilaterally merge a pull request without any form of approval
+from another developer. (There are two exceptions to this rule related to
+hotfix and release branches, described below.)</p></li>
+<li><p>The BioCro R package and repository follow semantic versioning of the form
+<code>major.minor.patch</code>. Hotfix branches should typically only increment the
+third (<code>patch</code>) number. Most release branches will increment the second
+(<code>minor</code>) number, and very rarely the first (<code>major</code>) number. Feature
+branches do not directly change the version number.</p></li>
+<li><p>Hotfix and release branch names should be formatted like <code>type-version</code>,
+where <code>type</code> is either <code>hotfix</code> or <code>release</code>, and version is the new version
+number. For example, <code>hotfix-v3.0.3</code> would be a hotfix branch that
+changes the version number to <code>3.0.3</code>. Feature branch names should reflect
+their purpose, and can be anything other than <code>master</code>, <code>develop</code>,
+<code>hotfix-*</code>, or <code>release-*</code>.</p></li>
+<li><p>Whenever the package version changes, a description of the related changes
+should be added to the changelog in <code>NEWS.md</code> as a new section titled with
+the new version number. Such version changes will happen via release and
+hotfix branches. Release branches will generally include changes made during
+the course of several feature branches, so they may require a significant
+amount of documentation in <code>NEWS.md</code>. To make it easier to prepare a list of
+these changes, each feature branch should include a description of its own
+changes in an <code>UNRELEASED</code> section of <code>NEWS.md</code>. For more information about
+updating the changelog, please see the comment at the top of <code>NEWS.md</code>.</p></li>
+<li><p>To avoid confusion, the version numbers on <code>main</code> and <code>develop</code> should never
+be identical. In general, if <code>main</code> is a stable release with version number
+<code>X.Y.Z</code>, then the version number on <code>develop</code> should be <code>X.Y.Z-D</code>, where <code>D</code>
+is a “development” component that begins at 0. This will indicate that the
+version contains unreleased developments that have occurred since the
+release of version <code>X.Y.Z</code>. The fourth component can be incremented as
+necessary if a feature branch introduces an important change.</p></li>
+</ul></li>
+<li><p>The following is a short description of BioCro’s implementation of the
+git-flow branching model:</p>
+<ul>
+<li><p>The <code>main</code> branch always contains the latest stable release of the BioCro
+GitHub repository. In fact, a new tag and release is made any time changes
+are merged into <code>main</code>, and such changes should always be accompanied by an
+increment to the BioCro R package version number.</p></li>
+<li><p>The <code>develop</code> branch contains bug fixes and new features that have been
+completed but may not have been released yet.</p></li>
+<li><p>Hotfix branches are for urgent changes that warrant immediate incorporation
+into <code>main</code>; typically these are bug fixes. A hotfix branch should be
+branched off <code>main</code>. When ready, it should first merged into <code>main</code> via an
+approved pull request. Then, a second pull request should be made to merge
+into <code>develop</code>. If there are no merge conflicts or test failures, this
+second request can be merged without any additional approval. When both
+merges are complete, the hotfix branch should be deleted.</p></li>
+<li><p>Feature branches are for less urgent changes that do not require immediate
+release; for example, the addition of a new R function to the package
+namespace. A feature branch should be branched off <code>develop</code> and merged
+back into <code>develop</code> via an approved pull request. Before merging, <code>NEWS.md</code>
+should be updated with a description of the changes under the <code># UNRELEASED</code>
+section (see <code>NEWS.md</code> for more details). When the merge into <code>develop</code> is
+complete, the feature branch should be deleted.</p></li>
+<li><p>When sufficiently many changes have accumulated in <code>develop</code> to justify a
+new version of the package, a release branch is used to move the changes
+from <code>develop</code> to <code>main</code>. Release branches should not include substantive
+changes; rather, a release branch is primarily used to increment the package
+version and to ensure an up-to-date changelog in <code>NEWS.md</code>; see the
+<a href="contributing-to-biocro.html#new-release">“New Release” chapter</a> for more details. A release branch
+should be branched off <code>develop</code>. When it’s ready, it should first merged
+into <code>develop</code> via an approved pull request. Then, a second pull request
+should be made to merge into <code>main</code>. (If the first PR target is <code>main</code>, it
+will be difficult to discern the minor changes in the release branch from
+the other changes in <code>develop</code>.) If there are no merge conflicts or test
+failures, this second request can be merged without any additional approval.
+When both merges are complete, the release branch should be deleted.</p></li>
+<li><p>When the version number on <code>main</code> is changed, either through a release or
+hotfix, then the version number on <code>develop</code> should also be changed shortly
+afterward, as described above.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="pr-etiquette" class="section level3 hasAnchor" number="1.1.3">
+<h3><span class="header-section-number">1.1.3</span> Etiquette for pull requests<a href="contributing-to-biocro.html#pr-etiquette" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We have several conventions when making and reviewing pull requests that are
+designed to make the process as efficient as possible, and to minimize any
+issues introduced by new code. These have been used in many PRs and have been
+found to be helpful.</p>
+<ul>
+<li><p><strong>Single ownership of each PR:</strong> If multiple people are making changes to the
+same code, there is a potential for conflicting changes to occur. While git
+provides a way to resolve such conflicts, it is better to avoid causing them
+in the first place. A simple way to prevent most of these conflicts is to
+treat each branch and PR as having a single “owner” who is in charge of making
+all commits. There are a few consequences of this approach:</p>
+<ul>
+<li><p>Pull request reviewers should suggest changes, not commit changes directly
+to the PR branch. If a reviewers wishes to contribute specific code changes,
+it is better to make them in a new branch and create a secondary PR to merge
+the changes into the original PR.</p></li>
+<li><p>Pull request owners should either implement the suggested changes or give a
+short explanation for why they have chosen not to.</p></li>
+<li><p>Once one or more reviewers have indicated their approval, it is the
+responsibility of the pull request owner to finalize the PR by merging it
+and deleting the branch.</p></li>
+</ul></li>
+<li><p><strong>Submitted code should work:</strong> It takes time and effort to produce a
+thoughtful review of a pull request, so requests to review a PR should
+generally only be made for working code. In a BioCro context, “working” code
+means that <code>R CMD check</code> does not produce any errors and that all the
+vignettes can be built. See the <a href="r-cmd-check.html#r-cmd-check">“Running R CMD check” chapter</a>
+for more information. While this does not guarantee that the new code achieves
+its goals, is fully documented, or follows the coding style guidelines, it is
+nevertheless a minimum requirement for any code to be incorporated into
+BioCro. The following is a thorough workflow that should ensure submitted code
+is working:</p>
+<ol style="list-style-type: decimal">
+<li><p>Run the regression tests locally. The tests don’t take much time to run, so
+this is a good way to get fast feedback.</p>
+<p>Instructions for running the regression tests locally can be found in the
+<a href="running-testthat.html#running-testthat">“Running the <em>testthat</em> Tests” chapter</a>.</p></li>
+<li><p>When all the regression tests are passing, run <code>R CMD check</code> locally. This
+takes longer than just running the regression tests, but it will also make
+sure that all code in the examples (and some of the vignettes) is able to
+run, which sometimes turns up more issues.</p>
+<p>Instructions for running <code>R CMD check</code> locally can be found in
+<a href="r-cmd-check.html#sec:local-r-cmd-check">“Running R CMD check locally” section</a>.</p>
+<p>Note that <code>R CMD check</code> will stop checking the examples once it encounters
+an error, so its list of problematic examples is not exhaustive. If there
+is an issue with an example, fix it and rerun <code>R CMD check</code> again because
+there may be additional errors in the examples.</p></li>
+<li><p>When <code>R CMD check</code> is passing locally, build <em>all</em> the vignettes. Because
+of space limits imposed by CRAN, some of our vignettes are designated as
+“web only.” Such vignettes are stored in the <code>vignettes/web_only</code> directoty
+and are not checked by <code>R CMD check</code>. They can be built manually on a
+case-by-case basis from within R by using <code>tools::build_vignette</code>, or all
+at once by running <code>pkgdown::build_site()</code> in an R session whose working
+directory is set to the root directory of the BioCro repository. See the
+<a href="#sec:building-vignettes">“Building package vignettes” section</a> for more
+information.</p></li>
+<li><p>When <code>R CMD check</code> is passing locally and the vignettes can all be built
+locally, make a PR, but don’t assign any reviewers. Making the PR will
+cause the workflow tests to run, which includes running <code>R CMD check</code> on
+several operating systems and versions of R, and building all the vignettes
+as part of the package documentation. This step takes the most time, but is
+important because sometimes an issue will appear that didn’t occur locally
+on your own operating system or version of R.</p></li>
+<li><p>When the online checks have passed, then assign reviewers to begin the
+review process.</p></li>
+</ol>
+<p>Doing this will ensure that there are no basic issues when reviewers begin to
+look at the code. It may seem like a hassle, but it saves time in the long
+run. Even when the exact workflow above is not followed, the online tests can
+still be extremely helpful to a PR owner or reviewer:</p>
+<ul>
+<li><p>It is possible to see whether the checks have passed by looking at the list
+of current PRs, where a red X next to a PR name indicates failure and a
+green check mark indicates success.</p></li>
+<li><p>When the tests have failed, more details can be found in the “Checks” tab of
+the PR web site. This will include the exact error messages, which are the
+starting point for troubleshooting.</p></li>
+</ul></li>
+</ul>
+<p>Of course, the conventions above are not hard rules, and there may be situations
+where it is acceptable, or even necessary, to deviate from them. The following
+is a (non-exhaustive) list of situations where these conventions could be
+modified:</p>
+<ul>
+<li><p>A PR owner may give clear permission to another developer to make direct code
+changes. This may be in response to a reviewer asking to make changes.</p></li>
+<li><p>Sometimes the online tests will fail due to an issue with the testing setup
+itself. In that case it might not be necessary for them to pass. However, in
+this scenario, it is important for at least one developer to ensure that
+<code>R CMD check</code> passes locally.</p></li>
+<li><p>Although it is ideal to only submit working code, sometimes this is not
+possible for a variety of reasons. If you are working on new code and wish to
+discuss it but there are <code>R CMD check</code> errors, this can be accomplished via a
+PR, a draft PR, a GitHub issue, or a GitHub discussion. The best approach may
+vary with the particular situation. Regardless of which approach is taken, it
+is essential to acknowledge the <code>R CMD check</code> issue and be clear about the
+type of feedback or discussion you are requesting.</p></li>
+<li><p>Sometimes a working PR may begin failing <code>R CMD check</code> after the author has
+made code changes in response to reviewer feedback. This is normal; the new
+problems and their solutions will simply become part of the PR discussion.</p></li>
+</ul>
+</div>
+<div id="making-large-modifications-to-biocro" class="section level3 hasAnchor" number="1.1.4">
+<h3><span class="header-section-number">1.1.4</span> Making large modifications to BioCro<a href="contributing-to-biocro.html#making-large-modifications-to-biocro" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>From time to time, someone will propose making a large change to the
+organizational structure of BioCro or to one of its central
+components. Here we also consider any modification that influences the
+way users or developers interact with BioCro to be “large.” Large
+changes must be carefully considered and discussed before they are
+implemented. When considering such proposals, a number of key points
+should be kept in mind:</p>
+<ul>
+<li><p>BioCro is designed for computational modelers who want to focus on
+biology rather than computer programming; it is essential for BioCro
+to be easy to install and use.</p>
+<p>A friendly user experience makes BioCro accessible to a wide range
+of users who each have the potential to contribute to broader
+scientific understanding through modeling. Thus, it is important to
+minimize any barriers that may prevent some scientists from using
+it.</p></li>
+<li><p>BioCro is developed and maintained by a small team, most of whom
+have numerous other responsibilities. Thus, it is important to
+carefully consider the implementation and maintenance costs that may
+be associated with any proposed change, carefully weighing these
+against the perceived benefits.</p></li>
+<li><p>Changes to BioCro R packages should be consistent with <a href="https://cran.r-project.org/web/packages/policies.html" target="_blank" title="CRAN Repository Policy">CRAN policies</a>.</p>
+<p>Distributing BioCro via CRAN is a key part of keeping it accessible
+to all users with maximum ease.</p></li>
+<li><p>At its core, BioCro is a C++ library; the BioCro R package merely
+provides a convenient R interface. Even though this R interface
+exists, we wish the C++ core to remain usable on its own.</p>
+<p>This has two implications:</p>
+<ul>
+<li><p>The core C++ library should maintain a consistent interface. Any
+changes to the public API should be carefully considered and
+carefully delineated.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p></li>
+<li><p>It should be and should remain relatively painless to obtain and
+use this library without having to have a full R installation.</p></li>
+</ul></li>
+<li><p>With BioCro, a premium is put on keeping it relatively
+self-contained; needless dependencies should be avoided.</p>
+<p>There are a number of reasons for this:</p>
+<ul>
+<li><p>Limiting dependencies will make it less likely BioCro will break
+for reasons beyond our control.</p></li>
+<li><p>Limiting dependencies reduces security risks. (On this point see,
+for example, Russ Cox’s discussion of the 2017 Equifax fiasco in
+his article <a href="https://research.swtch.com/deps" target="_blank" title="Our Software Dependency Problem">Our Software Dependency Problem</a>.)</p></li>
+<li><p>Limiting dependencies makes reproducibilty easier.</p>
+<p>If one wishes to replicate results of a BioCro simulation, the
+task is more difficult if one has to worry not only about what
+platform, what version of R, and what version of BioCro were used
+to obtain the original results, but if, on top of that, one has to
+worry about the versions of other R packages depended
+upon.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p></li>
+<li><p>Limiting dependencies means that fewer steps are required to
+install BioCro.</p></li>
+</ul>
+<p>BioCro has few dependencies, and all things being equal, we would
+like to keep it that way.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
+</ul>
+<p>If you propose a large modification to BioCro, please be prepared to
+discuss the following questions:</p>
+<ol style="list-style-type: decimal">
+<li><p>How will time costs change for maintainers, developers, and users?</p></li>
+<li><p>Will there be more or fewer opportunities for BioCro to break due
+to changes in its dependencies?</p></li>
+<li><p>Which BioCro features will be added or lost?</p></li>
+</ol>
+</div>
+</div>
+<div id="new-release" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Releasing a new version of BioCro<a href="contributing-to-biocro.html#new-release" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>R commands for submitting the package to the win-builder service and CRAN can be
+found in the <a href="contributing-to-biocro.html#cran-submission">“Submitting to CRAN” chapter</a> below.</p>
+<div id="preparing-a-new-version-of-biocro-on-github" class="section level3 hasAnchor" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Preparing a new version of BioCro on GitHub<a href="contributing-to-biocro.html#preparing-a-new-version-of-biocro-on-github" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>When releasing a new version of BioCro, it is essential to make sure that
+<code>NEWS.md</code> is up to date and that the new version is acceptable to CRAN. This can
+be achieved through the following steps:</p>
+<ol style="list-style-type: decimal">
+<li><p>Choose the next version number; our conventions for semantic versioning are
+described in <code>NEWS.md</code>.</p></li>
+<li><p>Make a new release branch whose name is formatted as <code>release-vX.Y.X</code>, where
+<code>X.Y.Z</code> is the new version number, as described in the
+<a href="contributing-to-biocro.html#branch-structure">“Branching Structure” chapter</a>.</p></li>
+<li><p>Update the <code>DESCRIPTION</code> file with the new release date (set to today’s
+date), the new version number, and any necessary changes to the author list.</p></li>
+<li><p>Change the <code>UNRELEASED</code> header in <code>NEWS.md</code> to the new version number, and
+check the contents of this section to ensure it is clear and complete. It may
+be helpful to look through the list of completed pull requests on GitHub to
+check for any important changes that may have been missed.</p></li>
+<li><p>Run <code>R CMD check</code> to see any NOTEs that are reported; see the
+<a href="r-cmd-check.html#r-cmd-check">“Running R CMD check chapter”</a> for instructions. Check the
+contents of <code>cran-comments.md</code> to make sure it accurately reflects the
+<code>R CMD check</code> notes.</p></li>
+<li><p>Make two pull requests, requesting to merge the new branch into <code>develop</code> and
+<code>main</code>. In general, follow the guidelines in the
+<a href="contributing-to-biocro.html#pr-etiquette">“Pull Request Etiquette” chapter</a>. However, there is one
+extra requirement for a release branch: the branch should not be merged until
+the new version has been accepted by CRAN. Sometimes CRAN may have issues
+with a new release, and it is better to address them <em>before</em> finalizing the
+release. (Otherwise, there may be several releases in quick succession with
+only minor or trivial changes between them; for example, BioCro versions
+3.1.1 and 3.1.2.) See the <a href="contributing-to-biocro.html#cran-submission">“Submitting to CRAN” chapter</a>
+for instructions.</p></li>
+<li><p>When the new version is on CRAN, merge the release branch into <code>develop</code> and
+<code>main</code>.</p></li>
+</ol>
+</div>
+<div id="cran-submission" class="section level3 hasAnchor" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> Submitting a new version of BioCro to CRAN<a href="contributing-to-biocro.html#cran-submission" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The package maintainer is responsible for submitting to CRAN, and the process
+consists of the following steps:</p>
+<ol style="list-style-type: decimal">
+<li><p>Make sure <code>R CMD check</code> does not produce warnings on any operating system or
+version of R, especially the current release version and the current
+development version on Linux and Windows. Our GitHub actions automatically
+run this for all pull requests.</p>
+<p>To be extra safe, it is also recommended to use the
+<a href="https://win-builder.r-project.org/">win-builder service</a> to check the
+package again on the development version of R for Windows. The easiest way to
+do this is to call <code>devtools::check_win_devel()</code> from an R session running in
+the BioCro root directory. Note that all email correspondance will be sent to
+the package maintainer regardless of who performs this action. {#win-builder}</p></li>
+<li><p>Submit the package, cross fingers, and wait. There are two ways to submit:</p>
+<ol style="list-style-type: decimal">
+<li><p>Call <code>devtools::submit_cran()</code> from an R session running in the BioCro
+root directory. This method will build the package and submit it to CRAN,
+automatically including the contents of <code>cran-comments.md</code> along with the
+built package. {#devtools-submit-cran}</p></li>
+<li><p>Submit manually. First, build the package with
+<code>R CMD build</code><a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>. Second, attach the resulting
+<code>.tar.gz</code> file to the <a href="https://cran.r-project.org/submit.html">CRAN form</a>.
+Finally, paste the contents of <code>cran-comments.md</code> in the form’s comments
+box and submit.</p></li>
+</ol>
+<p>With either method, the package maintainer will receive an email message
+with a link that must be followed to confirm the submission.</p></li>
+<li><p>If any issues are found by CRAN, address them and try again.</p>
+<ul>
+<li><p>If the checks fail only from permissible NOTES, such as using C++11, reply
+to the email indicating the justification, for example, “We use a library
+that uses C++11.” You can restate what is in <code>cran-comments.md</code>.</p></li>
+<li><p>If the package fails a manual review and must be resubmitted, make sure to
+increment the BioCro package version, or there will be a warning about an
+insufficient package version.</p></li>
+</ul></li>
+</ol>
+<p>BioCro’s online testing system should catch most issues before reaching this
+point, but sometimes CRAN starts enforcing rules that are not clearly explained
+anywhere or not checked by <code>R CMD check</code>. The most up-to-date description of
+CRAN’s requirements can be obtained from the following official and
+semi-official sources, which each offer a different perspective on CRAN
+submission:</p>
+<ul>
+<li><p><a href="https://cran.r-project.org/web/packages/policies.html" class="uri">https://cran.r-project.org/web/packages/policies.html</a></p></li>
+<li><p><a href="https://r-pkgs.org/release.html#release" class="uri">https://r-pkgs.org/release.html#release</a></p></li>
+<li><p><a href="https://contributor.r-project.org/cran-cookbook/code_issues.html" class="uri">https://contributor.r-project.org/cran-cookbook/code_issues.html</a></p></li>
+<li><p><a href="https://github.com/DavisVaughan/extrachecks" class="uri">https://github.com/DavisVaughan/extrachecks</a></p></li>
+</ul>
+</div>
+</div>
+<div id="code-style" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Code style<a href="contributing-to-biocro.html#code-style" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>(Most of what is discussed here pertains specifically to code for the BioCro C++
+library.)</p>
+<div id="scientific-considerations" class="section level3 hasAnchor" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Scientific considerations<a href="contributing-to-biocro.html#scientific-considerations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="document-sources-and-justifications-in-the-code" class="section level4 hasAnchor" number="1.3.1.1">
+<h4><span class="header-section-number">1.3.1.1</span> Document sources and justifications in the code<a href="contributing-to-biocro.html#document-sources-and-justifications-in-the-code" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p>Include citations to sources for equations and parameters used in
+the code. The citation should be sufficient to locate the article
+and relevant information within it. Include a table or figure
+reference if appropriate.</p></li>
+<li><p>Use <a href="https://www.doxygen.nl/manual/docblocks.html" target="_blank" title="Doxygen manual">Doxygen</a>-style comment syntax for high-level
+documentation of functions and classes. We use the Javadoc style of
+comment block in our code. (See the documentation of the Solar
+Position module <a href="https://github.com/biocro/biocro/tree/main/src/module_library/solar_position_michalsky.h" target="_blank" title="Source code for the Solar Position module"><code>solar_position_michalsky</code></a>
+for an example of a Doxygen-style comment, and then look at <a href="https://biocro.org/BioCro-documentation/latest/doxygen/doxygen_docs_modules_public_members_only/classstandard_b_m_l_1_1solar__position__michalsky.html#details" target="_blank" title="Documentation of the Solar Position module">the way
+this is rendered in the generated documentation</a>.)</p></li>
+<li><p>Include reasoning and justification for the model, including
+assumptions that determine when use of the model is appropriate.
+These descriptions should be succinct.</p></li>
+</ul>
+</div>
+<div id="document-units-in-the-code" class="section level4 hasAnchor" number="1.3.1.2">
+<h4><span class="header-section-number">1.3.1.2</span> Document units in the code<a href="contributing-to-biocro.html#document-units-in-the-code" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p>After every <a href="https://en.wikipedia.org/wiki/Physical_quantity" target="_blank" title="Wikipedia&#39;s entry on Physical Quantities">physical quantity</a>, include a comment with the
+units. The idea is that every quantity will roughly be read as if it
+were written in normal text: for example, <code>double yield = 10 // Mg /   ha</code> should be read as meaning “the yield was 10 Mg / ha”. Using
+<a href="https://en.wikipedia.org/wiki/International_System_of_Quantities#Dimensional_expression_of_derived_quantities" target="_blank" title="Dimensional expression of derived quantities (Wikipedia)">dimensions</a> instead of units is acceptable if the code is written
+with the expectation that <a href="https://en.wikipedia.org/wiki/Coherence_%28units_of_measurement%29" target="_blank" title="Wikipedia&#39;s entry on Coherent Units">coherent units</a> are used.</p>
+<p>The following example shows how to indicate units in a number of
+different contexts. Note that, as in LaTeX, <code>^</code> is used to indicate
+a superscript, so that <code>m^2</code> indicates <em>square meters</em>.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="contributing-to-biocro.html#cb1-1" tabindex="-1"></a><span class="co">// In function signatures</span></span>
+<span id="cb1-2"><a href="contributing-to-biocro.html#cb1-2" tabindex="-1"></a><span class="dt">double</span> ball_berry<span class="op">(</span><span class="dt">double</span> assimilation<span class="op">,</span>                   <span class="co">// mol / m^2 / s</span></span>
+<span id="cb1-3"><a href="contributing-to-biocro.html#cb1-3" tabindex="-1"></a>                  <span class="dt">double</span> atmospheric_co2_concentration<span class="op">,</span>  <span class="co">// mol / mol</span></span>
+<span id="cb1-4"><a href="contributing-to-biocro.html#cb1-4" tabindex="-1"></a>                  <span class="dt">double</span> atmospheric_relative_humidity<span class="op">,</span>  <span class="co">// Pa / Pa</span></span>
+<span id="cb1-5"><a href="contributing-to-biocro.html#cb1-5" tabindex="-1"></a>                  <span class="dt">double</span> beta0<span class="op">,</span>                          <span class="co">// mol / m^2 / s</span></span>
+<span id="cb1-6"><a href="contributing-to-biocro.html#cb1-6" tabindex="-1"></a>                  <span class="dt">double</span> beta1<span class="op">)</span>                          <span class="co">// dimensionless from [mol / m^2 / s] / [mol / m^2 / s]</span></span>
+<span id="cb1-7"><a href="contributing-to-biocro.html#cb1-7" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="contributing-to-biocro.html#cb1-8" tabindex="-1"></a><span class="co">// In assignments</span></span>
+<span id="cb1-9"><a href="contributing-to-biocro.html#cb1-9" tabindex="-1"></a><span class="dt">double</span> leaf_temperature <span class="op">=</span> air_temperature <span class="op">-</span> <span class="dt">delta_t</span><span class="op">;</span>  <span class="co">// K.</span></span>
+<span id="cb1-10"><a href="contributing-to-biocro.html#cb1-10" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="contributing-to-biocro.html#cb1-11" tabindex="-1"></a><span class="co">// In return statements</span></span>
+<span id="cb1-12"><a href="contributing-to-biocro.html#cb1-12" tabindex="-1"></a><span class="cf">return</span> assimilation_rate<span class="op">;</span>  <span class="co">// micromoles / m^2 / s.</span></span>
+<span id="cb1-13"><a href="contributing-to-biocro.html#cb1-13" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="contributing-to-biocro.html#cb1-14" tabindex="-1"></a><span class="co">// In tables</span></span>
+<span id="cb1-15"><a href="contributing-to-biocro.html#cb1-15" tabindex="-1"></a><span class="at">const</span> <span class="bu">std::</span>map<span class="op">&lt;</span>SoilType<span class="op">,</span> soilText_str<span class="op">&gt;</span> soil_parameters <span class="op">=</span></span>
+<span id="cb1-16"><a href="contributing-to-biocro.html#cb1-16" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-17"><a href="contributing-to-biocro.html#cb1-17" tabindex="-1"></a>    <span class="co">//                        d = dimensionless</span></span>
+<span id="cb1-18"><a href="contributing-to-biocro.html#cb1-18" tabindex="-1"></a>    <span class="co">//                        d     d     d     J / kg      d     J s / m^3    d     d      d     Mg / m^3</span></span>
+<span id="cb1-19"><a href="contributing-to-biocro.html#cb1-19" tabindex="-1"></a>    <span class="co">//                        silt  clay  sand  air_entry   b     Ks           satur fieldc wiltp bulk_density</span></span>
+<span id="cb1-20"><a href="contributing-to-biocro.html#cb1-20" tabindex="-1"></a>    <span class="op">{</span> SoilType<span class="op">::</span>sand<span class="op">,</span>       <span class="op">{</span> <span class="fl">0.05</span><span class="op">,</span> <span class="fl">0.03</span><span class="op">,</span> <span class="fl">0.92</span><span class="op">,</span>      <span class="op">-</span><span class="fl">0.7</span><span class="op">,</span>  <span class="fl">1.7</span><span class="op">,</span>  <span class="fl">5.8e-3</span><span class="op">,</span>      <span class="fl">0.87</span><span class="op">,</span> <span class="fl">0.09</span><span class="op">,</span>  <span class="fl">0.03</span><span class="op">,</span> <span class="fl">1.60</span> <span class="op">}</span> <span class="op">},</span></span>
+<span id="cb1-21"><a href="contributing-to-biocro.html#cb1-21" tabindex="-1"></a>    <span class="op">{</span> SoilType<span class="op">::</span>loamy_sand<span class="op">,</span> <span class="op">{</span> <span class="fl">0.12</span><span class="op">,</span> <span class="fl">0.07</span><span class="op">,</span> <span class="fl">0.81</span><span class="op">,</span>      <span class="op">-</span><span class="fl">0.9</span><span class="op">,</span>  <span class="fl">2.1</span><span class="op">,</span>  <span class="fl">1.7e-3</span><span class="op">,</span>      <span class="fl">0.72</span><span class="op">,</span> <span class="fl">0.13</span><span class="op">,</span>  <span class="fl">0.06</span><span class="op">,</span> <span class="fl">1.55</span> <span class="op">}</span> <span class="op">},</span></span>
+<span id="cb1-22"><a href="contributing-to-biocro.html#cb1-22" tabindex="-1"></a><span class="op">};</span></span></code></pre></div></li>
+<li><p>If you would like to include other details, include the units in the
+same way, and include details <strong>following</strong> the units so that the
+variables are still read like regular text. For example, write</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="contributing-to-biocro.html#cb2-1" tabindex="-1"></a>✓ <span class="cf">return</span> gswmol <span class="op">*</span> <span class="dv">1000</span><span class="op">;</span>  <span class="co">// mmol / m^2 / s. Convert from mol to mmol.</span></span></code></pre></div>
+<p><em>not</em></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="contributing-to-biocro.html#cb3-1" tabindex="-1"></a>✗ <span class="cf">return</span> gswmol <span class="op">*</span> <span class="dv">1000</span><span class="op">;</span>  <span class="co">// Converting from mol / m^2 / s to mmol / m^2 / s.</span></span></code></pre></div>
+<p>Note that in a case such as this, the units apply to the entire
+value (<code>gswmol * 1000</code>) and not merely to the variable (<code>gswmol</code>).</p></li>
+<li><p>Use SI conventions for units and dimensions, including
+capitalization. Specifically, use “<code>degrees C</code>”, not “<code>C</code>”, to
+indicate °C.</p></li>
+<li><p>Use full names when symbols are not available:</p>
+<ul>
+<li><code>micromoles / m^2</code>, <em>not</em> <code>umol / m^2</code></li>
+<li><code>degrees C</code>, <em>not</em> <code>*C</code>.</li>
+</ul></li>
+<li><p>Use <code>dimensionless</code> for dimensionless quantities, and include how
+the dimensions have canceled if that is informative.</p></li>
+<li><p>Use <code>^</code> to indicate exponentiation: <code>m^2</code>, <em>not</em> <code>m2</code>.</p></li>
+<li><p>Prefer an asterisk to indicate multiplication; but indicating
+multiplication by juxtaposing units with exactly one space between
+them is acceptable. Prefer exactly one space on each side of the
+asterisk: <code>kg * m / s</code> or <code>kg m / s</code>.</p></li>
+<li><p>Either a solidus (“/”) or negative exponent is acceptable to
+indicate division, but ensure that the solidus is used correctly if
+used multiple times. Prefer exactly one space on each side of the
+solidus.</p></li>
+</ul>
+</div>
+<div id="document-parameters" class="section level4 hasAnchor" number="1.3.1.3">
+<h4><span class="header-section-number">1.3.1.3</span> Document parameters<a href="contributing-to-biocro.html#document-parameters" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p>When adding models that require new parameters, document the
+parameters in the parameter table in <a href="https://github.com/biocro/biocro/tree/main/src/parameters.h" target="_blank" title="The BioCro parameters.h file">src/parameters.h</a>. Please
+keep the table well formatted.</p></li>
+<li><p>If you are working on a model with undocumented parameters, it would
+be nice if you added them to the table as you work through the
+issue.</p></li>
+</ul>
+</div>
+</div>
+<div id="general-coding-considerations" class="section level3 hasAnchor" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> General coding considerations<a href="contributing-to-biocro.html#general-coding-considerations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p>Do not use C-style arrays. Use an appropriate data type from the standard
+library instead.</p></li>
+<li><p>Use cmath, not math.h, for common mathematical functions.</p></li>
+<li><p>Be careful with <strong>using</strong>-directives (e.g. <code>using namespace std</code>) in
+a global scope; do not use them in global scope in a header file.
+Try to make <strong>using</strong>-declarations (e.g. <code>using std::string</code>) as
+local as possible. Type aliases (e.g. <code>using string_vector =   std::vector&lt;std::string&gt;</code>) are perfectly acceptable in the global
+scope of a header file.</p></li>
+<li><p>Strongly prefer the <a href="https://en.wikipedia.org/wiki/Coherence_%28units_of_measurement%29" target="_blank" title="Wikipedia&#39;s entry on Coherent Units">coherent</a> set of SI
+units. Doing so reduces code complexity remarkably as no conversions
+are necessary. Yes, no one publishes values with these units, but do
+the conversion in one place, the manuscript, instead of dozens of
+times in the code, constantly having to look up units for variables,
+and then spending hours debugging silly, difficult-to-find errors.
+The coherent set of SI units consists of all the units without
+prefixes, except that kg is the coherent unit of mass, not g.</p></li>
+<li><p>Do not copy and paste code, changing only small parts. Choose a
+design that eliminates the duplication.</p></li>
+<li><p>Make an effort to write unit tests. (See the vignette <a href="https://biocro.org/BioCro-documentation/latest/pkgdown/articles/an_introduction_to_biocro.pdf" target="_blank" title="Intro to BioCro vignette"><em>An
+Introduction to BioCro for Those Who Want to Add Models</em></a> for information about writing unit tests—specifically,
+writing unit tests for new modules.)</p></li>
+<li><p>Do not mix sweeping formatting changes with behavior changes. Large
+formatting changes should be a separate commit, containing <em>only</em>
+formatting changes, and the commit comment should indicate that only
+formatting was changed. This way, code that changes program
+behavior won’t be obscured by a mass of changes to the formatting of
+the code.</p></li>
+<li><p>The Standard C++ Foundation’s <a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines" target="_blank" title="C++ Core Guidelines">C++ Core Guidelines</a> have useful advice
+about <a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-naming" target="_blank" title="C++ Core Guidelines&#39; naming and layout suggestions">aspects of coding and design</a>.</p></li>
+</ul>
+</div>
+<div id="formatting-code" class="section level3 hasAnchor" number="1.3.3">
+<h3><span class="header-section-number">1.3.3</span> Formatting code<a href="contributing-to-biocro.html#formatting-code" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>(Again, except in a few instances, this pertains specifically to C++ code.)</p>
+<p>The most important aspect of formatting is that the code is easy to
+understand. Below are unenforced preferences.</p>
+<ul>
+<li><p>Prefer <code>underscores_in_identifiers</code> not <code>CamelCaseInIdentifiers</code>
+and, in R, not <code>dots.in.identifiers</code>. Prefer lowercase-only
+identifiers. An exception may be made for commonly-recognized names
+used in a small scope, for example,</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb4-1"><a href="contributing-to-biocro.html#cb4-1" tabindex="-1"></a>I <span class="op">=</span> V <span class="op">/</span> R<span class="op">;</span></span>
+<span id="cb4-2"><a href="contributing-to-biocro.html#cb4-2" tabindex="-1"></a>F <span class="op">=</span> m <span class="op">*</span> a<span class="op">;</span></span>
+<span id="cb4-3"><a href="contributing-to-biocro.html#cb4-3" tabindex="-1"></a>E <span class="op">=</span> m <span class="op">*</span> <span class="op">(</span>c <span class="op">*</span> c<span class="op">);</span></span></code></pre></div></li>
+<li><p>Avoid unnecessary parentheses. For example, use “<code>a * b / c</code>”
+instead of <nobr>“<code>(a * b) / c</code>”</nobr> or <nobr>“<code>a * (b / c)</code>”</nobr>. But in cases where the order of operations affects the
+result, parentheses may be used to erase any doubt in the mind of the
+reader (or the programmer!) as to what that order is. Thus, writing
+<code>(a / b) * c</code> instead of (the equivalent) <code>a / b * c</code> is acceptable.
+Parentheses may also be used to group portions of a formula that are
+commonly considered as a sub-unit, where they provide some semantic
+value (see the previous bullet point). Consider naming parts of a
+complicated expression in order to break it down into simpler ones.
+For example,</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb5-1"><a href="contributing-to-biocro.html#cb5-1" tabindex="-1"></a>x <span class="op">=</span> <span class="op">(-</span>b <span class="op">+</span> sqrt<span class="op">(</span>b <span class="op">*</span> b <span class="op">-</span> <span class="dv">4</span> <span class="op">*</span> a <span class="op">*</span> c<span class="op">))</span> <span class="op">/</span> <span class="op">(</span><span class="dv">2</span> <span class="op">*</span> a<span class="op">);</span></span></code></pre></div>
+<p>may be rewritten in three lines as</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb6-1"><a href="contributing-to-biocro.html#cb6-1" tabindex="-1"></a>num <span class="op">=</span> <span class="op">-</span>b <span class="op">+</span> sqrt<span class="op">(</span>b <span class="op">*</span> b <span class="op">-</span> <span class="dv">4</span> <span class="op">*</span> a <span class="op">*</span> c<span class="op">);</span></span>
+<span id="cb6-2"><a href="contributing-to-biocro.html#cb6-2" tabindex="-1"></a>denom <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> a<span class="op">;</span></span>
+<span id="cb6-3"><a href="contributing-to-biocro.html#cb6-3" tabindex="-1"></a>x <span class="op">=</span> num <span class="op">/</span> denom<span class="op">;</span></span></code></pre></div>
+<p>Note that in C++, unlike in R, return statements do not require
+parentheses around the returned expression.</p></li>
+<li><p>Restrict the line length of paragraph-like comments to 80
+characters, excepting a compelling reason to do otherwise. Lines in
+sections that are not paragraph-like could be somewhat longer if it
+facilitates presenting material in a more readable format. In the
+following snippet from the module library documentation, for
+example, we have allowed slighly-longer lines in order to be able to
+maintain one line per interval:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb7-1"><a href="contributing-to-biocro.html#cb7-1" tabindex="-1"></a><span class="co">/*</span></span>
+<span id="cb7-2"><a href="contributing-to-biocro.html#cb7-2" tabindex="-1"></a><span class="co">*  However, this definition is flexible. For example, for our soybean model</span></span>
+<span id="cb7-3"><a href="contributing-to-biocro.html#cb7-3" tabindex="-1"></a><span class="co">*  (soybean_development_rate_calculator.h) we define the intervals as follows:</span></span>
+<span id="cb7-4"><a href="contributing-to-biocro.html#cb7-4" tabindex="-1"></a><span class="co">*  -1 &lt;= DVI &lt; 0 : Sowing to Emergence</span></span>
+<span id="cb7-5"><a href="contributing-to-biocro.html#cb7-5" tabindex="-1"></a><span class="co">*   0 &lt;= DVI &lt; 1  :  Emergence to R1 (Flowering) is broken into three stages.</span></span>
+<span id="cb7-6"><a href="contributing-to-biocro.html#cb7-6" tabindex="-1"></a><span class="co">*       0 &lt;= DVI &lt; 0.333        : Emergence to V0 (Cotyledon stage)</span></span>
+<span id="cb7-7"><a href="contributing-to-biocro.html#cb7-7" tabindex="-1"></a><span class="co">*       0.333 &lt;= DVI &lt; 0.667    : V0 (Cotyledon stage) to R0 (End of Floral Induction)</span></span>
+<span id="cb7-8"><a href="contributing-to-biocro.html#cb7-8" tabindex="-1"></a><span class="co">*       0.667 &lt;= DVI &lt; 1        : R0 (End of Floral Induction) to R1 (Flowering)</span></span>
+<span id="cb7-9"><a href="contributing-to-biocro.html#cb7-9" tabindex="-1"></a><span class="co">*  1 &lt;= DVI &lt; 2 : R1 (Flowering) to R7 (Maturity)</span></span>
+<span id="cb7-10"><a href="contributing-to-biocro.html#cb7-10" tabindex="-1"></a><span class="co">*/</span></span></code></pre></div>
+<p>As for the code lines themselves, we point to the following advice
+from the Linux kernel project:<sup id="a1"><a href="contributing-to-biocro.html#f1">1</a></sup></p>
+<blockquote>
+<p>The preferred limit on the length of a single line is 80 columns.</p>
+</blockquote>
+<blockquote>
+<p>Statements longer than 80 columns should be broken into sensible
+chunks, unless exceeding 80 columns significantly increases
+readability and does not hide information.</p>
+</blockquote></li>
+<li><p>Do not include trailing whitespace, i.e., whitespace characters preceding
+newline characters.</p></li>
+<li><p>Each file should end with a newline character (i.e. a terminal endline).</p></li>
+<li><p>Use spaces rather than tab characters.</p></li>
+<li><p>In general, formatting preferences should follow something similar
+to the <a href="https://google.github.io/styleguide/cppguide.html#Formatting" target="_blank" title="Google&#39;s guidelines for formatting C++ code">Google C++ style guide</a>, except in cases where the code
+has been formatted in a more readable way, such as when aligning
+parts in a table.</p></li>
+<li><p>The Standard C++ Foundation guidelines offer some advice about
+<a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-naming" target="_blank" title="C++ Core Guidelines&#39; naming and layout suggestions">formatting conventions</a> that are
+informative, particularly regarding the use of code comments.</p></li>
+</ul>
+<p>For tools to help with formatting code, see the
+<a href="contributing-to-biocro.html#formatting-tools">“Formatting Tools” section</a>.</p>
+</div>
+<div id="r-specific-coding-advice" class="section level3 hasAnchor" number="1.3.4">
+<h3><span class="header-section-number">1.3.4</span> R-specific coding advice<a href="contributing-to-biocro.html#r-specific-coding-advice" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p>Prefer to use the double-bracket operator (<code>list[['element']]</code>) rather than
+the dollar-sign operator (<code>list$element</code>) when accessing the elements of a
+list. The <code>$</code> operator uses partial matching, whereas <code>[[</code>, by default, does
+not. (However, it can be specified: <code>list[['element', exact = FALSE]]</code>.)
+Avoiding partial matching by using <code>[[</code> gives us more confidence that errors
+won’t occur.</p></li>
+<li><p>While there is no inherent performance difference between a <code>for</code>
+loop and an apply-type function such as <code>apply</code> or <code>lapply</code> (the
+apply functions actually use <code>for</code> loops in their source code), it
+is nevertheless possible to write a “bad” <code>for</code> loop that runs
+slowly. Common culprits include a failure to pre-allocate memory or
+a poor choice in assignment method. If a <code>for</code> loop seems to run
+slowly, consider replacing it with an apply-type function or
+tweaking the assignment method (e.g. replacing <code>append</code> with
+<code>[</code>). Many guides for optimizing loop performance are available
+online, such as <a href="https://datascienceplus.com/strategies-to-speedup-r-code/" target="_blank" title="datascience+ article on speeding up R code">Strategies to Speedup R Code</a> and <a href="https://privefl.github.io/blog/why-loops-are-slow-in-r/" target="_blank" title="Florian Privé&#39;s article on the pitfalls of R loops">Why loops are
+slow in R</a>.</p></li>
+<li><p>Generally our R code follows the <a href="http://adv-r.had.co.nz/Style.html" target="_blank" title="Advanced R (1e) style guide">Advanced R (1e) Style Guide</a> with the
+exception of indentation, where we use 4 spaces rather than 2.</p>
+<ul>
+<li><p>Put a space after control statements (such as <code>if</code> or <code>for</code>), but do not
+put a space after other function names (such as <code>function</code>, <code>return</code>, or
+<code>sqrt</code>). For example:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="contributing-to-biocro.html#cb8-1" tabindex="-1"></a>myfun <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb8-2"><a href="contributing-to-biocro.html#cb8-2" tabindex="-1"></a>    y <span class="ot">&lt;-</span> <span class="cf">if</span> (x <span class="sc">==</span> <span class="dv">1</span>) {</span>
+<span id="cb8-3"><a href="contributing-to-biocro.html#cb8-3" tabindex="-1"></a>        <span class="dv">2</span></span>
+<span id="cb8-4"><a href="contributing-to-biocro.html#cb8-4" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb8-5"><a href="contributing-to-biocro.html#cb8-5" tabindex="-1"></a>        <span class="fu">sqrt</span>(x)</span>
+<span id="cb8-6"><a href="contributing-to-biocro.html#cb8-6" tabindex="-1"></a>    }</span>
+<span id="cb8-7"><a href="contributing-to-biocro.html#cb8-7" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="contributing-to-biocro.html#cb8-8" tabindex="-1"></a>    <span class="fu">return</span>(y)</span>
+<span id="cb8-9"><a href="contributing-to-biocro.html#cb8-9" tabindex="-1"></a>}</span></code></pre></div>
+<p>(Yes, in R, <code>function</code> is a function.)</p></li>
+</ul></li>
+</ul>
+<hr />
+<p><b id="f1">1</b> The Linux kernel project recently changed the default
+length for code lines from 80 to 100 characters with the following
+commit comment:</p>
+<blockquote>
+<p>Yes, staying withing 80 columns is certainly still <em>preferred</em>. But
+it’s not the hard limit that the checkpatch warnings imply, and other
+concerns can most certainly dominate.</p>
+</blockquote>
+<blockquote>
+<p>Increase the default limit to 100 characters. Not because 100
+characters is some hard limit either, but that’s certainly a “what are
+you doing” kind of value and less likely to be about the occasional
+slightly longer lines. <a href="contributing-to-biocro.html#a1">↩︎</a></p>
+</blockquote>
+
+<!-- This file is raw R Markdown code.  To see this as a
+correctly-rendered web page, visit the online documentation at
+https://biocro.org, go to the Developer's Manual, and find the
+section on formatting tools in the chapter on contributing to BioCro.
+-->
+<!-- external references -->
+</div>
+</div>
+<div id="formatting-tools" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Formatting Tools<a href="contributing-to-biocro.html#formatting-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="clangs-formatting-tool" class="section level3 hasAnchor" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Clang’s formatting tool<a href="contributing-to-biocro.html#clangs-formatting-tool" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Many of these BioCro formatting preferences can be applied
+automatically using the program <a href="https://clang.llvm.org/docs/ClangFormat.html" target="_blank" title="Documentation of the ClangFormat tool at the Clang documentation site">clang-format</a> with the
+<a href="https://github.com/biocro/biocro/tree/main/.clang-format" target="_blank" title="The Clang configuration file for BioCro">.clang-format</a> file provided in the base directory of BioCro. <strong>Do
+not apply clang-format to all files indiscriminately</strong>, as that will
+ruin manually-aligned tables.</p>
+<p>The best time to reformat a file is immediately before (or possibly
+immediately after) making substantive changes to the code in the file.
+But, as mentioned in the
+<a href="contributing-to-biocro.html#general-coding-considerations">“General Coding Considerations” section</a>,
+<strong>sweeping formatting changes should be made in a separate commit</strong>,
+separate from any substantive changes made to the code. This way,
+changes to the functioning of the code won’t be obscured by changes to
+formatting that have no effect on code semantics.</p>
+<div id="installation" class="section level4 hasAnchor" number="1.4.1.1">
+<h4><span class="header-section-number">1.4.1.1</span> Installation<a href="contributing-to-biocro.html#installation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>One can install clang-format on Ubuntu using <code>sudo apt install clang-format</code>. On macOS, clang-format is available from the
+<a href="https://brew.sh/" target="_blank" title="The Homebrew package manager Web site">Homebrew</a> package manager.</p>
+</div>
+<div id="using-the-clang-formatting-tool" class="section level4 hasAnchor" number="1.4.1.2">
+<h4><span class="header-section-number">1.4.1.2</span> Using the Clang formatting tool<a href="contributing-to-biocro.html#using-the-clang-formatting-tool" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Files can be formatted using</p>
+<pre><code>clang-format file_name &gt; new_file</code></pre>
+<p>or edited in place using</p>
+<pre><code>clang-format -i file_name</code></pre>
+<p>If your editor has the ability to display differences between the
+original and revised versions of the file, it is a good idea to step
+through and inspect the proposed changes to ensure they are desirable.</p>
+</div>
+<div id="using-the-clang-formatting-tool-with-the-codelite-ide" class="section level4 hasAnchor" number="1.4.1.3">
+<h4><span class="header-section-number">1.4.1.3</span> Using the Clang formatting tool with the CodeLite IDE<a href="contributing-to-biocro.html#using-the-clang-formatting-tool-with-the-codelite-ide" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>On Windows, macOS, or Linux, the CodeLite IDE includes clang-format
+and provides an easy way to use it. First go to <strong>Plugins -&gt; Source
+Code Formatter -&gt; Options</strong>. In the C++ tab, select <code>use .clang-format file</code>. Now press <code>Ctrl-I</code> or click <strong>Plugins -&gt; Source Code Formatter
+-&gt; Format Current Source</strong> to format a file.</p>
+</div>
+</div>
+<div id="editorconfig" class="section level3 hasAnchor" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> EditorConfig<a href="contributing-to-biocro.html#editorconfig" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Another tool to help with formatting is EditorConfig. EditorConfig,
+when used in conjunction with the <a href="https://github.com/biocro/biocro/tree/main/.editorconfig" target="_blank" title="BioCro&#39;s .editorconfig file">.editorconfig</a> file provided in
+the base directory of BioCro, provides a method for standardizing
+settings across different text editors. While some editors have native
+support, others require a plugin. See the <a href="https://editorconfig.org/" target="_blank" title="The EditorConfig Web site">EditorConfig
+website</a> for more details.</p>
+
+<!--  external references -->
+<!-- main text -->
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="2">
+<li id="fn2"><p>As of this writing, no C++ API for BioCro has been
+defined: there is no document that makes clear what publicly
+accessible portions of the framework and standard library are
+guaranteed to remain stable and available to be programmed against and
+which portions are subject to change.<a href="contributing-to-biocro.html#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Irrespective of what dependencies BioCro now has
+or are added to it, a researcher who is concerned about reproducability
+should consider making a containerized version of BioCro. See, for
+example, the chapter <a href="https://reproducible-analysis-workshop.readthedocs.io/en/latest/8.Intro-Docker.html" target="_blank" title="Docker and Reproducibility">Docker and Reproducibility</a> in the document for
+the workshop <a href="https://reproducible-analysis-workshop.readthedocs.io/en/latest/index.html" target="_blank" title="Reproducible analysis and Research Transparency">Reproducible analysis and Research Transparency</a>. The
+BioCro maintainers don’t provide containerized versions of BioCro as
+we think this is a task better left to the individual researcher.<a href="contributing-to-biocro.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>BioCro’s strong dependencies are the R
+framework, the C++ compiler used in installing the BioCro package, the
+C++ Standard Library, the and the Boost C++ Library.</p>
+<p>As for R package dependencies, the BioCro R package depends only
+upon packages in the R standard library (stats and utils) for its
+basic installation and functioning. BioCro does use other,
+non-standard R packages for building the documentation and for
+testing, but these are not essential to a fully-functioning BioCro
+installation.</p>
+<p>For further reading on the benefits and pitfalls of using
+dependencies, see, for example, Russ Cox’s article <a href="https://research.swtch.com/deps" target="_blank" title="Our Software Dependency Problem">Our Software
+Dependency Problem</a> and Bill Sourour’s article <a href="https://www.freecodecamp.org/news/code-dependencies-are-the-devil-35ed28b556d" target="_blank" title="Code dependencies are the devil">Code dependencies are
+the devil</a>.<a href="contributing-to-biocro.html#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>If a package contains large vignette files,
+<code>R CMD check</code> may produce an error about overly large documentation. In this
+case, it can be helpful to specify <code>--compact-vignettes=both</code> when calling
+<code>R CMD build</code>. Previously this was an important issue for BioCro, but it has
+been mitigated by designating most vignettes as “web only.”<a href="contributing-to-biocro.html#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="generating-documentation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 3
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<map id="do_operation" name="do_operation">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,101,57"/>
+<area shape="rect" id="node2" href="$respiration_8cpp.html#a927e5b35e08716c49f7973e3cdead8d5" title="Calculates respiratory losses associated with a particular base rate of biomass available for growth." alt="" coords="366,5,459,32"/>
+<area shape="rect" id="node3" href="$respiration_8cpp.html#aed2a77bda5ae8da2cf9cba192bcbad29" title="Calculates respiratory losses associated with a particular base rate of biomass available for growth." alt="" coords="149,56,273,83"/>
+<area shape="rect" id="node4" href="$temperature__response__functions_8h.html#a2f3f958811a5cf0d1dcb62c611bfcd41" title="A typical Q10&#45;based temperature response. The two temperatures below must be supplied in the same uni..." alt="" coords="321,56,504,83"/>
+</map>

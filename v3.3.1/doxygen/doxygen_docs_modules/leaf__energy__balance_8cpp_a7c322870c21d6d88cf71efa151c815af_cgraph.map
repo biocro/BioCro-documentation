@@ -1,0 +1,6 @@
+<map id="calculate_gbw_leaf" name="calculate_gbw_leaf">
+<area shape="rect" id="node1" title="Calculates the leaf boundary layer conductance using the Nikolov model." alt="" coords="5,13,139,39"/>
+<area shape="rect" id="node2" href="$boundary__layer__conductance_8cpp.html#a31cde78d5dc4980def9a72de2b0a071b" title="Calculates the conductance for water vapor flow from the leaf across its boundary layer using a model..." alt="" coords="187,5,349,47"/>
+<area shape="rect" id="node3" href="$conductance__helpers_8h.html#ac24f22e4807af1ee04f58b5fbfaeb968" title="Convert a conductance value from a &quot;molecular&quot; basis (in units of mol / m^2 / s) to a &quot;mass&quot; basis (i..." alt="" coords="397,13,484,39"/>
+<area shape="rect" id="node4" href="$water__and__air__properties_8h.html#ae122b7938401239b4aca5917897190a6" title="Determine the volume of one mole of an ideal gas using the ideal gas law." alt="" coords="532,13,635,39"/>
+</map>

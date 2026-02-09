@@ -1,0 +1,13 @@
+<map id="growth_resp" name="growth_resp">
+<area shape="rect" id="node1" title="Calculates respiratory losses associated with a particular base rate of biomass available for growth." alt="" coords="432,154,525,181"/>
+<area shape="rect" id="node2" href="$c3_can_a_c_8cpp.html#ab8cc082dfbf2c8485ef886bc2e92aa60" title=" " alt="" coords="265,21,342,47"/>
+<area shape="rect" id="node4" href="$_can_a_c_8cpp.html#aaf84d24104310b21bc31529f9205df60" title=" " alt="" coords="272,78,335,105"/>
+<area shape="rect" id="node6" href="$classstandard_b_m_l_1_1partitioning__growth__calculator.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,135,175,191"/>
+<area shape="rect" id="node7" href="$classstandard_b_m_l_1_1partitioning__growth__calculator__leaf__costs.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,215,175,271"/>
+<area shape="rect" id="node8" href="$respiration_8cpp.html#aed2a77bda5ae8da2cf9cba192bcbad29" title="Calculates respiratory losses associated with a particular base rate of biomass available for growth." alt="" coords="241,179,365,206"/>
+<area shape="rect" id="node9" href="$classstandard_b_m_l_1_1multilayer__canopy__integrator.html#aa6b7bb009af6cd63f442559d3b8d1ab2" title=" " alt="" coords="223,303,384,344"/>
+<area shape="rect" id="node3" href="$classstandard_b_m_l_1_1c3__canopy.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="6,5,174,47"/>
+<area shape="rect" id="node5" href="$classstandard_b_m_l_1_1c4__canopy.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="6,71,174,112"/>
+<area shape="rect" id="node10" href="$classstandard_b_m_l_1_1multilayer__canopy__integrator.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="9,295,171,351"/>
+<area shape="rect" id="node11" href="$classstandard_b_m_l_1_1ten__layer__canopy__integrator.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="11,375,169,431"/>
+</map>
